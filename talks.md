@@ -4,6 +4,11 @@
 ## 2017
 
 
+### [GoLang Talks #9](https://www.meetup.com/Golang-ZG/events/240548481/) June 12, 2017
+**Simple and effective**
+by [Antonio Nesić](https://twitter.com/exo23)
+
+
 ### [GoLang Talks #8](https://www.meetup.com/Golang-ZG/events/239817535/) May 24, 2017
 **Gopheri u mobilnom svijetu: Go na Android i iOS platformama**
 by [Jovica Popović](https://twitter.com/jpop_32)
