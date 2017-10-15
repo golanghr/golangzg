@@ -4,6 +4,11 @@
 ## 2017
 
 
+### [GoLang Talks #8](https://www.meetup.com/Golang-ZG/events/239817535/) May 24, 2017
+**Gopheri u mobilnom svijetu: Go na Android i iOS platformama**
+by [Jovica Popović](https://twitter.com/jpop_32)
+
+
 ### [GoLang Talks #6](https://www.meetup.com/Golang-ZG/events/237499164/) March 9, 2017
 [Go 1.8](http://talks.godoc.org/github.com/dvrkps/go18talk/presentation.slide#1)
 by [Davor Kapša](https://twitter.com/dvrkps)
