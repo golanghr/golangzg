@@ -1,5 +1,14 @@
 # meetup talks
 
+
+## 2017
+
+
+### [GoLang Talks #6](https://www.meetup.com/Golang-ZG/events/237499164/) March 9, 2017
+[Go 1.8](http://talks.godoc.org/github.com/dvrkps/go18talk/presentation.slide#1)
+by [Davor Kapša](https://twitter.com/dvrkps)
+
+
 ## 2016
 
 
