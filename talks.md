@@ -3,7 +3,7 @@
 ## 2016
 
 ### [GoLang Talks #4](https://www.meetup.com/Golang-ZG/events/230471563/) Apr 25, 2016 
-[Upgrading Resque the Go way]
+**Upgrading Resque the Go way**
 by [Adriano Orioli](https://twitter.com/TheOrioli)
 
 ### [GoLang Talks #3](https://www.meetup.com/Golang-ZG/events/229616950/) Mar 30, 2016
