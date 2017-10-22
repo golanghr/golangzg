@@ -5,7 +5,7 @@
 
 
 ### [GoTalks #10](https://www.meetup.com/Golang-ZG/events/243038475/) September 13, 2017
-- **Go i blockchain**
+- [Go i blockchain](https://docs.google.com/presentation/d/1RybQluA3SbrM0PMgxmUSTWxyESTcXL9eFLSUvexDQSI/edit#slide=id.p)
 by [Ivan Voras](https://twitter.com/ivoras)
 
 
