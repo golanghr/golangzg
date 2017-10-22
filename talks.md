@@ -36,7 +36,7 @@ by [Marin Bašić](https://twitter.com/marin02basic)
 
 
 ### [GoLang Talks #4](https://www.meetup.com/Golang-ZG/events/230471563/) Apr 25, 2016 
-- **Upgrading Resque the Go way**
+- [Upgrading Resque the Go way](http://go-talks.appspot.com/github.com/Aorioli/talks/resque/presentation.slide#1)
 by [Adriano Orioli](https://twitter.com/TheOrioli)
 
 
