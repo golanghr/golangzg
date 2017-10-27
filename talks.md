@@ -4,6 +4,11 @@
 ## 2017
 
 
+### [GoTalks #11](https://www.meetup.com/Golang-ZG/events/244226216/) October 26, 2017
+- [math/bits](https://talks.godoc.org/github.com/dvrkps/mathbitstalk/mathbitstalk.slide#1)
+by [Davor Kapša](https://twitter.com/dvrkps)
+
+
 ### [GoTalks #10](https://www.meetup.com/Golang-ZG/events/243038475/) September 13, 2017
 - [Go i blockchain](https://docs.google.com/presentation/d/1RybQluA3SbrM0PMgxmUSTWxyESTcXL9eFLSUvexDQSI/edit#slide=id.p)
 by [Ivan Voras](https://twitter.com/ivoras)
