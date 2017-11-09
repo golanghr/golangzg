@@ -36,7 +36,7 @@ by [Davor Kapša](https://twitter.com/dvrkps)
 - **Concurrent worker pools**
 by [Ljubo Čanić](https://twitter.com/ljubo_canic)
 
-- **Buying p0rn with Go**
+- [Buying p0rn with Go](http://talks.godoc.org/github.com/marinx/talks/buying-p0rn-with-go/presentation.slide#1)
 by [Marin Bašić](https://twitter.com/marin02basic)
 
 
