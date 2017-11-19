@@ -46,7 +46,7 @@ by [Adriano Orioli](https://twitter.com/TheOrioli)
 
 
 ### [GoLang Talks #3](https://www.meetup.com/Golang-ZG/events/229616950/) Mar 30, 2016
-- [Uvod u mikro servisnu arhitekturu](http://talks.godoc.org/github.com/MatejB/talks/2016/basics-of-microservice-architecture.slide#1)
+- [Basics of Microservice architecture](http://talks.godoc.org/github.com/MatejB/talks/2016/basics-of-microservice-architecture.slide#1)
 by [Matej Baćo](https://twitter.com/matejbaco)
 
 
