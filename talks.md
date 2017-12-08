@@ -20,7 +20,7 @@ by [Antonio Nesić](https://twitter.com/exo23)
 
 
 ### [GoTalks #8](https://www.meetup.com/Golang-ZG/events/239817535/) May 24, 2017
-- **Gopheri u mobilnom svijetu: Go na Android i iOS platformama**
+- [Gomobile: gophers in the land of Android](https://www.slideshare.net/JovicaPopovic/gomobile-gophers-in-the-land-of-android)
 by [Jovica Popović](https://twitter.com/jpop_32)
 
 
