@@ -4,6 +4,11 @@
 ## 2017
 
 
+### [GoTalks #13](https://www.meetup.com/Golang-ZG/events/245358345/) December 7, 2017
+- [dotGo2017](https://github.com/minus5/dotGo2017)
+by [Marin Prcela](https://twitter.com/mprcela)
+
+
 ### [GoTalks #11](https://www.meetup.com/Golang-ZG/events/244226216/) October 26, 2017
 - [math/bits](https://talks.godoc.org/github.com/dvrkps/mathbitstalk/mathbitstalk.slide#1)
 by [Davor Kapša](https://twitter.com/dvrkps)
