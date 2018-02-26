@@ -1,14 +1,21 @@
 # meetup talks
 
+
 ## 2018
+
+
+### [GoTalks #15](https://www.meetup.com/Golang-ZG/events/247644001/) February 26, 2018
+- [Go 1.10](https://talks.godoc.org/github.com/dvrkps/go110talk/talk.slide#1)
+by [Davor Kapša](https://twitter.com/dvrkps)
+
 
 ### [GoTalks #14](https://www.meetup.com/Golang-ZG/events/246613216/) January 23, 2018
 - [Streamanje glazbe pomoću Go-a](https://speakerdeck.com/senko/streamanje-glazbe-pomocu-go-a)
 by [Senko Rašić](https://twitter.com/senkorasic)
 
 
-
 ## 2017
+
 
 ### [GoTalks #13](https://www.meetup.com/Golang-ZG/events/245358345/) December 7, 2017
 - [dotGo2017](https://github.com/minus5/dotGo2017)
