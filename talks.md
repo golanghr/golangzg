@@ -6,16 +6,19 @@
 
 ### [GoTalks #16](https://www.meetup.com/Golang-ZG/events/248534214/) March 20, 2018
 - [Go i WASM - buducnost weba](https://github.com/mutantkeyboard/GoTalk)
+([video](https://www.youtube.com/watch?v=-BS1fJ2E4ms))
 by [Antonio Nesić](https://twitter.com/exo23)
 
 
 ### [GoTalks #15](https://www.meetup.com/Golang-ZG/events/247644001/) February 26, 2018
 - [Go 1.10](https://talks.godoc.org/github.com/dvrkps/go110talk/talk.slide#1)
+([video](https://www.facebook.com/matejbaco/videos/g.724216327694602/10156176052968874))
 by [Davor Kapša](https://twitter.com/dvrkps)
 
 
 ### [GoTalks #14](https://www.meetup.com/Golang-ZG/events/246613216/) January 23, 2018
 - [Streamanje glazbe pomoću Go-a](https://speakerdeck.com/senko/streamanje-glazbe-pomocu-go-a)
+([video](https://www.facebook.com/matejbaco/videos/g.724216327694602/10156078276373874))
 by [Senko Rašić](https://twitter.com/senkorasic)
 
 
