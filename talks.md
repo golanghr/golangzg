@@ -4,6 +4,11 @@
 ## 2018
 
 
+### [GoTalks #16](https://www.meetup.com/Golang-ZG/events/248534214/) March 20, 2018
+- [Go i WASM - buducnost weba](https://github.com/mutantkeyboard/GoTalk)
+by [Antonio Nesić](https://twitter.com/exo23)
+
+
 ### [GoTalks #15](https://www.meetup.com/Golang-ZG/events/247644001/) February 26, 2018
 - [Go 1.10](https://talks.godoc.org/github.com/dvrkps/go110talk/talk.slide#1)
 by [Davor Kapša](https://twitter.com/dvrkps)
