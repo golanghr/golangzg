@@ -4,6 +4,12 @@
 ## 2018
 
 
+### [GoTalks #17](https://www.meetup.com/Golang-ZG/events/249627022/) April 26, 2018
+- [go:generate](https://slides.com/nmiculinic/go-generate/#/)
+([video](https://www.youtube.com/watch?v=R_qQnsyNMNw))
+by [Neven Miculinić](https://github.com/nmiculinic)
+
+
 ### [GoTalks #16](https://www.meetup.com/Golang-ZG/events/248534214/) March 20, 2018
 - [Go i WASM - buducnost weba](https://github.com/mutantkeyboard/GoTalk)
 ([video](https://www.youtube.com/watch?v=-BS1fJ2E4ms))
