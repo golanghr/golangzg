@@ -4,6 +4,12 @@
 ## 2018
 
 
+### [GoTalks 5/18](https://www.meetup.com/Golang-ZG/events/250651450/) May 22, 2018
+- [Image Recognition SaaS](https://talks.godoc.org/github.com/MarinX/talks/go-meetup-tensorflow/main.slide#1)
+([video](https://www.youtube.com/watch?v=fOfcF2Z_I58))
+by [Marin Basic](https://twitter.com/marin02basic)
+
+
 ### [GoTalks #17](https://www.meetup.com/Golang-ZG/events/249627022/) April 26, 2018
 - [go:generate](https://slides.com/nmiculinic/go-generate/#/)
 ([video](https://www.youtube.com/watch?v=R_qQnsyNMNw))
