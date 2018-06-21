@@ -3,6 +3,10 @@
 
 ## 2018
 
+### [GoTalks 6/18](https://www.meetup.com/Golang-ZG/events/251673885/) June 19, 2018
+- [Go projects structures](https://github.com/matejb/gops)
+by [Matej Baćo](https://twitter.com/matejbaco)
+
 
 ### [GoTalks 5/18](https://www.meetup.com/Golang-ZG/events/250651450/) May 22, 2018
 - [Image Recognition SaaS](https://talks.godoc.org/github.com/MarinX/talks/go-meetup-tensorflow/main.slide#1)
