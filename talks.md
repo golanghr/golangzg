@@ -3,6 +3,11 @@
 
 ## 2018
 
+### [GoTalks 9/18](https://www.meetup.com/Golang-ZG/events/254413467/) September 13, 2018
+- [New in Go v1.11](https://talks.godoc.org/github.com/matejb/talks/2018/go1.11/go1.11.slide#1)
+by [Matej Baćo](https://twitter.com/matejbaco)
+
+
 ### [GoTalks 6/18](https://www.meetup.com/Golang-ZG/events/251673885/) June 19, 2018
 - [Go projects structures](https://github.com/matejb/gops)
 by [Matej Baćo](https://twitter.com/matejbaco)
