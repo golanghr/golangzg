@@ -3,6 +3,12 @@
 
 ## 2018
 
+
+### [GoTalks 10/18](https://www.meetup.com/Golang-ZG/events/lsrsjqyxnbhc/) October 25, 2018
+- **Interakcija sa hardwerom na aplikacijskoj razini**
+by [Ljubo Čanić](https://twitter.com/ljubo_canic)
+
+
 ### [GoTalks 9/18](https://www.meetup.com/Golang-ZG/events/254413467/) September 13, 2018
 - [New in Go v1.11](https://talks.godoc.org/github.com/matejb/talks/2018/go1.11/go1.11.slide#1)
 by [Matej Baćo](https://twitter.com/matejbaco)
