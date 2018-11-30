@@ -4,6 +4,11 @@
 ## 2018
 
 
+### [GoTalks 11/18](https://www.meetup.com/Golang-ZG/events/256537975/) November 26, 2018
+- [Uvod u servise sa go-kitom](https://github.com/mutantkeyboard/uvod-u-gokit)
+by [Antonio Nesić](https://twitter.com/exo23)
+
+
 ### [GoTalks 10/18](https://www.meetup.com/Golang-ZG/events/lsrsjqyxnbhc/) October 25, 2018
 - **Interakcija sa hardwerom na aplikacijskoj razini**
 by [Ljubo Čanić](https://twitter.com/ljubo_canic)
