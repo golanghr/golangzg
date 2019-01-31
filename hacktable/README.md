@@ -1,8 +1,5 @@
 # Golang ZG Hack Table
 
-## 18-11
-- [concurrent scatter gather](18-11/concurrent-scatter-gather) by [@matejbaco](https://twitter.com/matejbaco)
-
 ## 19-01
 - [block notify](19-01/dvrkps/blocknotify) by [@dvrkps](https://twitter.com/dvrkps)
 - [defensive](19-01/dvrkps/defensive) by [@dvrkps](https://twitter.com/dvrkps)
@@ -14,3 +11,6 @@
 - [balance](19-01/matejb/balance) by [@matejbaco](https://twitter.com/matejbaco)
 - [behavior adding](19-01/matejb/behavior_adding) by [@matejbaco](https://twitter.com/matejbaco)
 - [subtests](19-01/matejb/subtests) by [@matejbaco](https://twitter.com/matejbaco)
+
+## 18-11
+- [concurrent scatter gather](18-11/concurrent-scatter-gather) by [@matejbaco](https://twitter.com/matejbaco)
