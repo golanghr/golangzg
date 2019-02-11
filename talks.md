@@ -4,6 +4,11 @@
 ## 2018
 
 
+### [GoTalks 12/18](https://www.meetup.com/Golang-ZG/events/257008957/) December 10, 2018
+- **Golang race detection**
+by [Neven Miculinić](https://twitter.com/MiculinicNeven)
+
+
 ### [GoTalks 11/18](https://www.meetup.com/Golang-ZG/events/256537975/) November 26, 2018
 - [Uvod u servise sa go-kitom](https://github.com/mutantkeyboard/uvod-u-gokit)
 by [Antonio Nesić](https://twitter.com/exo23)
@@ -33,7 +38,7 @@ by [Marin Basic](https://twitter.com/marin02basic)
 ### [GoTalks #17](https://www.meetup.com/Golang-ZG/events/249627022/) April 26, 2018
 - [go:generate](https://slides.com/nmiculinic/go-generate/#/)
 ([video](https://www.youtube.com/watch?v=R_qQnsyNMNw))
-by [Neven Miculinić](https://github.com/nmiculinic)
+by [Neven Miculinić](https://twitter.com/MiculinicNeven)
 
 
 ### [GoTalks #16](https://www.meetup.com/Golang-ZG/events/248534214/) March 20, 2018
