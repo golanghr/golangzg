@@ -5,7 +5,7 @@
 
 
 ### [GoTalks 14.2.2019.](https://www.meetup.com/Golang-ZG/events/258868806/)
-- [Hack Table](https://github.com/golanghr/golangzg/tree/master/hacktable#2019-02)
+- Drinkup 
 
 
 ### [GoTalks 1/19](https://www.meetup.com/Golang-ZG/events/258357473/) January 31, 2019
