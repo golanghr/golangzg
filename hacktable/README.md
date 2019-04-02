@@ -3,7 +3,7 @@
 Pokazite dio koda koji vas muci, izaziva nedoumice ili se jednostavno zelite pohvaliti dobrim rjesenjem :)
 
 Donesite kod ili posaljite PR.
-Idealno je ako se kod moze izvrsiti kroz Go playground, ali nije uvjet.
+Idealno je ako se kod moze izvrsiti kroz https://play.golang.org/, ali nije uvjet.
 
 
 ## Arhiva
