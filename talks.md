@@ -83,7 +83,7 @@ by [Marin Prcela](https://twitter.com/mprcela)
 
 
 ### [GoTalks #11](https://www.meetup.com/Golang-ZG/events/244226216/) October 26, 2017
-- [math/bits](https://talks.godoc.org/github.com/dvrkps/mathbitstalk/mathbitstalk.slide#1)
+- [math/bits](https://talks.godoc.org/github.com/dvrkps/talks/mathbits/talk.slide#1)
 by [Davor Kapša](https://twitter.com/dvrkps)
 
 
