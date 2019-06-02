@@ -63,7 +63,7 @@ by [Antonio Nesić](https://twitter.com/exo23)
 
 
 ### [GoTalks #15](https://www.meetup.com/Golang-ZG/events/247644001/) February 26, 2018
-- [Go 1.10](https://talks.godoc.org/github.com/dvrkps/go110talk/talk.slide#1)
+- [Go 1.10](https://talks.godoc.org/github.com/dvrkps/talks/go110/talk.slide#1)
 ([video](https://www.facebook.com/matejbaco/videos/g.724216327694602/10156176052968874))
 by [Davor Kapša](https://twitter.com/dvrkps)
 
