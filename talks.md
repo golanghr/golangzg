@@ -103,7 +103,7 @@ by [Jovica Popović](https://twitter.com/jpop_32)
 
 
 ### [GoLang Talks #6](https://www.meetup.com/Golang-ZG/events/237499164/) March 9, 2017
-- [Go 1.8](http://talks.godoc.org/github.com/dvrkps/go18talk/presentation.slide#1)
+- [Go 1.8](http://talks.godoc.org/github.com/dvrkps/talks/go18/talk.slide#1)
 by [Davor Kapša](https://twitter.com/dvrkps)
 
 
