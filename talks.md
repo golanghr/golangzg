@@ -4,6 +4,13 @@
 ## 2019
 
 
+### [GoTalks 24.9.2019.](https://www.meetup.com/Golang-ZG/events/264730683)
+- go generate - the good, the bad, the better
+by [Zlatko Bratkovic](https://https://github.com/oktalz)
+- [Community news / Go 1.13](https://talks.godoc.org/github.com/matejb/talks/2019/Go113/Go113.slide#1)
+by [Matej Baćo](https://twitter.com/matejbaco)
+
+
 ### [GoTalks 14.3.2019.](https://www.meetup.com/Golang-ZG/events/259667708)
 - [Hack Table](https://github.com/golanghr/golangzg/tree/master/hacktable#2019-03)
 
