@@ -11,6 +11,11 @@ by [Zlatko Bratkovic](https://github.com/oktalz)
 by [Matej Baćo](https://twitter.com/matejbaco)
 
 
+### [GoTalks 13.6.2019.](https://www.meetup.com/Golang-ZG/events/262003258/)
+- [Go on AWS Lambda](https://talks.godoc.org/github.com/matejb/talks/2019/GoOnAwsLambda/GoOnAwsLambda.slide#1)
+by [Matej Baćo](https://twitter.com/matejbaco)
+
+
 ### [GoTalks 16.5.2019.](https://www.meetup.com/Golang-ZG/events/261384408/)
 - Drinkup 
 
