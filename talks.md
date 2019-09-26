@@ -11,6 +11,14 @@ by [Zlatko Bratkovic](https://github.com/oktalz)
 by [Matej Baćo](https://twitter.com/matejbaco)
 
 
+### [GoTalks 16.5.2019.](https://www.meetup.com/Golang-ZG/events/261384408/)
+- Drinkup 
+
+
+### [GoTalks 11.4.2019.](https://www.meetup.com/Golang-ZG/events/260283013/)
+- Drinkup 
+
+
 ### [GoTalks 14.3.2019.](https://www.meetup.com/Golang-ZG/events/259667708)
 - [Hack Table](https://github.com/golanghr/golangzg/tree/master/hacktable#2019-03)
 
