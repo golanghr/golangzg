@@ -1,19 +1,12 @@
-# Golang ZG Hack Table
+# HackTable
 
-## 2019-03
-- TBA
+Pokazite dio koda koji vas muci, izaziva nedoumice ili se jednostavno zelite pohvaliti dobrim rjesenjem :)
 
-## 2019-01
-- [block notify](2019-01/dvrkps/blocknotify) by [@dvrkps](https://twitter.com/dvrkps)
-- [defensive](2019-01/dvrkps/defensive) by [@dvrkps](https://twitter.com/dvrkps)
-- [init service](2019-01/dvrkps/initservice) by [@dvrkps](https://twitter.com/dvrkps)
-- [monorepo](2019-01/dvrkps/monorepo) by [@dvrkps](https://twitter.com/dvrkps)
-- [embedded types](2019-01/oktalz/embedded-types) by [oktalz](https://zlatko.info.tm)
-- [gc](2019-01/oktalz/gc) by [oktalz](https://zlatko.info.tm)
-- [tip](2019-01/oktalz/tip) by [oktalz](https://zlatko.info.tm)
-- [balance](2019-01/matejb/balance) by [@matejbaco](https://twitter.com/matejbaco)
-- [behavior adding](2019-01/matejb/behavior_adding) by [@matejbaco](https://twitter.com/matejbaco)
-- [subtests](2019-01/matejb/subtests) by [@matejbaco](https://twitter.com/matejbaco)
+Donesite kod ili posaljite PR.
+Idealno je ako se kod moze izvrsiti kroz https://play.golang.org/, ali nije uvjet.
 
-## 2018-11
-- [concurrent scatter gather](2018-11/concurrent-scatter-gather) by [@matejbaco](https://twitter.com/matejbaco)
+
+## Arhiva
+- [2019-03](2019-03/)
+- [2019-01](2019-01/)
+- [2018-11](2018-11/)
