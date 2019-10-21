@@ -61,7 +61,12 @@ func (ss password) String() string {
 	return "******"
 }
 
-// MarshalJSON satisfy json.Marshaler.
-func (ss password) MarshalJSON() ([]byte, error) {
-	return []byte(`"******"`), nil
+// MarshalText satisfy encoding.TextMarshaler.
+func (ss password) MarshalText() ([]byte, error) {
+	return []byte(`******`), nil
 }
+
+// // MarshalJSON satisfy json.Marshaler.
+// func (ss password) MarshalJSON() ([]byte, error) {
+// 	return []byte(`"******"`), nil
+// }
