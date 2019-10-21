@@ -7,6 +7,7 @@ Idealno je ako se kod moze izvrsiti kroz https://play.golang.org/, ali nije uvje
 
 
 ## Arhiva
+- [2019-10](2019-10/)
 - [2019-03](2019-03/)
 - [2019-01](2019-01/)
 - [2018-11](2018-11/)
