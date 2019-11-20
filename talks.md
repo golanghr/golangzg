@@ -3,6 +3,9 @@
 
 ## 2019
 
+### [GoTalks 19.11.2019. Go 10th anniversary. #GoTurns10](https://www.meetup.com/Golang-ZG/events/265507312/)
+- [10th anniversary of the Go release](https://talks.godoc.org/github.com/matejb/talks/2019/Go10years/Go10years-v2.slide#1)
+by [Matej Baćo](https://twitter.com/matejbaco)
 
 ### [GoTalks 24.9.2019.](https://www.meetup.com/Golang-ZG/events/264730683)
 - [go generate - the good, the bad, the better](https://github.com/oktalz/golangzg/blob/Meetup-20190924/presentations/2019-09-24/go-generate-principle.pdf)
