@@ -1,0 +1,31 @@
+Community news
+18 Feb 2020
+
+* Conference discounts
+
+dotGo - Paris - March 30
+
+10% ticket discount
+
+.image images/dotgo-discount.png
+
+* Conference discounts
+
+Gophercon EU - Berlin - April 23-26
+
+.image images/gophercon.png
+
+10% ticket discount with code: *welovegophers*
+
+* Go 1.14 rc1
+
+	go get golang.org/dl/go1.14rc1
+
+Then, use the go1.14rc1 command instead of the go command to use go1.14rc1.
+
+* Good resource
+
+Go time podcast - gotime.fm
+
+.image images/gotime.png
+
