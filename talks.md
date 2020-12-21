@@ -1,7 +1,12 @@
 # meetup talks
 
 
+
 ## 2019
+
+### [GoTalks 10.12.2019.](https://www.meetup.com/Golang-ZG/events/265507369/)
+- **Go moduli u dubinu**
+by [Zlatko Bratkovic](https://www.linkedin.com/in/bratkoviczlatko/)
 
 ### [GoTalks 19.11.2019. Go 10th anniversary. #GoTurns10](https://www.meetup.com/Golang-ZG/events/265507312/)
 - [10th anniversary of the Go release](https://talks.godoc.org/github.com/matejb/talks/2019/Go10years/Go10years-v2.slide#1)
