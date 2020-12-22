@@ -4,7 +4,7 @@
 
 ### [GoTalks 21.04.2020.](https://www.meetup.com/Golang-ZG/events/269914818/)
 - **Kubernetes Operators: Safety First Through Model Checkers**
-by [Neven Miculinić](https://twitter.com/MiculinicNeven)
+by [Neven Miculinić](https://www.linkedin.com/in/nmiculinic/)
 
 
 ### [GoTalks 18.02.2020.](https://www.meetup.com/Golang-ZG/events/268566279/)
@@ -62,7 +62,7 @@ by [Matej Baćo](https://twitter.com/matejbaco)
 
 ### [GoTalks 12/18](https://www.meetup.com/Golang-ZG/events/257008957/) December 10, 2018
 - **Golang race detection**
-by [Neven Miculinić](https://twitter.com/MiculinicNeven)
+by [Neven Miculinić](https://www.linkedin.com/in/nmiculinic/)
 
 
 ### [GoTalks 11/18](https://www.meetup.com/Golang-ZG/events/256537975/) November 26, 2018
@@ -94,7 +94,7 @@ by [Marin Basic](https://twitter.com/marin02basic)
 ### [GoTalks #17](https://www.meetup.com/Golang-ZG/events/249627022/) April 26, 2018
 - [go:generate](https://slides.com/nmiculinic/go-generate/#/)
 ([video](https://www.youtube.com/watch?v=R_qQnsyNMNw))
-by [Neven Miculinić](https://twitter.com/MiculinicNeven)
+by [Neven Miculinić](https://www.linkedin.com/in/nmiculinic/)
 
 
 ### [GoTalks #16](https://www.meetup.com/Golang-ZG/events/248534214/) March 20, 2018
