@@ -2,6 +2,10 @@
 
 ## 2020
 
+### [GoTalks 18.02.2020.](https://www.meetup.com/Golang-ZG/events/268566279/)
+- **Slanje Push notifikacija iz Goa**
+by [Maja Trepšić Kušt](https://www.linkedin.com/in/maja-trepsic/)
+
 ### [GoTalks 30.01.2020.](https://www.meetup.com/Golang-ZG/events/267900978/)
 - **Behavior-driven development & Cucumber for Go**
 by Zvonimir Bošnjak
