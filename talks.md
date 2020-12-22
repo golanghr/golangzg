@@ -2,6 +2,11 @@
 
 ## 2020
 
+### [GoTalks 27.10.2020.](https://www.meetup.com/Golang-ZG/events/273956175/)
+- **Golang u sysops svijetu**
+by [Dinko Korunić](https://twitter.com/dkorunic)
+
+
 ### [GoTalks 22.09.2020.](https://www.meetup.com/Golang-ZG/events/273209103/)
 - **Service mesh**
 by [Neven Miculinić](https://www.linkedin.com/in/nmiculinic/)
