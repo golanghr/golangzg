@@ -2,10 +2,13 @@
 
 ## 2020
 
+### [GoTalks 26.05.2020.](https://www.meetup.com/Golang-ZG/events/270725353/)
+- **Kako si olakšati dijagnostiku i debugiranje Golang mikroservisa**
+by Matija Salopek
+
 ### [GoTalks 21.04.2020.](https://www.meetup.com/Golang-ZG/events/269914818/)
 - **Kubernetes Operators: Safety First Through Model Checkers**
 by [Neven Miculinić](https://www.linkedin.com/in/nmiculinic/)
-
 
 ### [GoTalks 18.02.2020.](https://www.meetup.com/Golang-ZG/events/268566279/)
 - **Slanje Push notifikacija iz Goa**
