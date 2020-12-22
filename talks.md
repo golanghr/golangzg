@@ -2,6 +2,10 @@
 
 ## 2020
 
+### [GoTalks 22.09.2020.](https://www.meetup.com/Golang-ZG/events/273209103/)
+- **Service mesh**
+by [Neven Miculinić](https://www.linkedin.com/in/nmiculinic/)
+
 ### [GoTalks 26.05.2020.](https://www.meetup.com/Golang-ZG/events/270725353/)
 - **Kako si olakšati dijagnostiku i debugiranje Golang mikroservisa**
 by Matija Salopek
