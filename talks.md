@@ -1,6 +1,10 @@
 # meetup talks
 
+## 2020
 
+### [GoTalks 30.01.2020.](https://www.meetup.com/Golang-ZG/events/267900978/)
+- **Behavior-driven development & Cucumber for Go**
+by Zvonimir Bošnjak
 
 ## 2019
 
