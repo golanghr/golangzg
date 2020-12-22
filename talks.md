@@ -2,6 +2,11 @@
 
 ## 2020
 
+### [GoTalks 26.11.2020.](https://www.meetup.com/Golang-ZG/events/274708875/)
+- **Komunikacija browsera i Go aplikacije, \
+može li Javascript pozivati Go funkcije na backend programu**
+by [Zlatko Bratkovic](https://www.linkedin.com/in/bratkoviczlatko/)
+
 ### [GoTalks 27.10.2020.](https://www.meetup.com/Golang-ZG/events/273956175/)
 - **Golang u sysops svijetu**
 by [Dinko Korunić](https://twitter.com/dkorunic)
