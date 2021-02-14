@@ -1,0 +1,70 @@
+# Subjects for LearnTable 2021 (DRAFT)
+
+- package
+  - what it is
+  - naming and conventions
+  - files
+  - exported
+  - documentation
+  - imports
+  - blank import
+  - init order
+- modules
+  - what
+  - why
+  - how.... (needs split into small chunks)
+- basic data types
+- composit data types
+  - array and slice
+  - map
+  - structures
+    - embeding
+    - methods
+    - pointer receiver methods
+    - method override
+    - encoding and decoding (JSON as example)
+- scope
+- variables
+  - global / scoped
+  - empty value
+- constants
+  - ioata
+  - global / scoped
+- loops
+- branching
+  - if
+  - switch
+  - type switch
+- functions
+  - public / private
+  - arguments
+  - variadic arguments
+  - functions as arguments
+  - return values
+  - recursion
+  - anonymous functions
+  - closure
+  - panic and recover
+  - conventions
+    - error
+    - context
+    - documentation
+- interfaces
+  - contracts
+  - influance on arhitecture
+  - embeding
+  - type casting
+  - conventions
+    - naming
+    - single method
+  - satisfaction with non structure types
+- nil
+  - the good, the bad and the ugly
+- goroutines
+  - channel
+  - select
+  - common patterns with examples (needs split into small chunks)
+- concurrency with shared memory
+  - sync.Mutex
+  - sync.Once
+..... 
