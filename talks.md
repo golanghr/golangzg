@@ -1,5 +1,12 @@
 # meetup talks
 
+## 2023
+
+### [GoTalks 26.09.2023.](https://www.meetup.com/golang-zg/events/296122228/)
+- [Web scrapping and different ideas about UI (do we need it)](https://github.com/oktalz/go-meetup-2023-09-26/)
+by [Zlatko Bratkovic](https://www.linkedin.com/in/bratkoviczlatko/)
+
+
 ## 2020
 
 ### [GoTalks 26.11.2020.](https://www.meetup.com/Golang-ZG/events/274708875/)
@@ -55,11 +62,11 @@ by [Matej Baćo](https://twitter.com/matejbaco)
 
 
 ### [GoTalks 16.5.2019.](https://www.meetup.com/Golang-ZG/events/261384408/)
-- Drinkup 
+- Drinkup
 
 
 ### [GoTalks 11.4.2019.](https://www.meetup.com/Golang-ZG/events/260283013/)
-- Drinkup 
+- Drinkup
 
 
 ### [GoTalks 14.3.2019.](https://www.meetup.com/Golang-ZG/events/259667708)
@@ -67,7 +74,7 @@ by [Matej Baćo](https://twitter.com/matejbaco)
 
 
 ### [GoTalks 14.2.2019.](https://www.meetup.com/Golang-ZG/events/258868806/)
-- Drinkup 
+- Drinkup
 
 
 ### [GoTalks 1/19](https://www.meetup.com/Golang-ZG/events/258357473/) January 31, 2019
@@ -176,7 +183,7 @@ by [Ljubo Čanić](https://twitter.com/ljubo_canic)
 by [Marin Bašić](https://twitter.com/marin02basic)
 
 
-### [GoLang Talks #4](https://www.meetup.com/Golang-ZG/events/230471563/) April 25, 2016 
+### [GoLang Talks #4](https://www.meetup.com/Golang-ZG/events/230471563/) April 25, 2016
 - [Upgrading Resque the Go way](http://go-talks.appspot.com/github.com/Aorioli/talks/resque/presentation.slide#1)
 by [Adriano Orioli](https://twitter.com/TheOrioli)
 
