@@ -1,0 +1,12 @@
+1234567890123;"Item 123";1.23
+1234567890123;"Item 123";123.45
+1234567890123;"Item 123";1,234.56
+1234567890123;"Item 123";1,234,567.89
+1234567890123;"Item 123 w/ HR characters šđžćč ŠĐŽĆČ";123.45
+1234567890123;"Item 123 w/ Missing field"
+1234567890123;Quote " in unquoted field;123.45
+1234567890123;Single quote ' in unquoted field;123.45
+1234567890123;"Non-doubled quote " in quoted field";123.45
+1234567890123;"Doubled quote "" in quoted field";123.45
+1234567890123;Item 123 w/ Unquoted;123.45
+1234567890123;  Item 123 w/ Unquoted w/ leading space;123.45
