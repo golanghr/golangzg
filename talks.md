@@ -2,10 +2,32 @@
 
 ## 2023
 
-### [GoTalks 26.09.2023.](https://www.meetup.com/golang-zg/events/296122228/)
+### **GoTalks 26.09.2023.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/296122228/) [<img src="assets/images/codotto.jpg" alt="codotto.com" width="24"/>](https://codotto.com/meetups/go-talks)
 - [Web scrapping and different ideas about UI (do we need it)](https://github.com/oktalz/go-meetup-2023-09-26/)
 by [Zlatko Bratkovic](https://www.linkedin.com/in/bratkoviczlatko/)
 
+### **Go DrinkUp 25.07.2023.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/294880494/)
+- Drinkup
+
+### **GoTalks 20.06.2023.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/294158846/)
+- **Go ASM - deep dive**
+by [Bruno Banelli](https://www.linkedin.com/in/brunobanelli/)
+
+### **GoTalks 23.05.2023.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/293588389/)
+- [Benchmarking: Interface vs Generics)](https://docs.google.com/presentation/d/1VDOhXDVzhYGu-rJfvKTg5in5aZosC0RSsJLLRgVga6M/edit?usp=sharing)
+by [Zlatko Bratkovic](https://www.linkedin.com/in/bratkoviczlatko/)
+
+### **GoTalks 11.04.2023.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/292548923/)
+- **TinyGo - može li blue collar jezik raditi na 133 MHz i stotinama kilobajta RAM-a**
+by [Bruno Banelli](https://www.linkedin.com/in/brunobanelli/)
+
+### **GoTalks 21.03.2023.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/292109948/)
+- [Code coverage - može li 100% code coverage garantirati sreću i zadovoljstvo)](https://docs.google.com/presentation/d/19BT4dJZGT6MklNTk_1VB711mmlx0OFfBpsJD2eHP4xs/edit?usp=sharing)
+by [Zlatko Bratkovic](https://www.linkedin.com/in/bratkoviczlatko/)
+
+### **GoTalks 21.02.2023.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/292548923/)
+- **Optimising speed, security and flexibility of JWT with Go**
+by [Bruno Banelli](https://www.linkedin.com/in/brunobanelli/)
 
 ## 2020
 
