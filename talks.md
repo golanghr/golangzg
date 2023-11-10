@@ -2,12 +2,12 @@
 
 ## 2023
 
-### **GoTalks 31.10.2023.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/296928055/) [<img src="assets/images/codotto.jpg" alt="codotto.com" width="24"/>](https://codotto.com/meetups/go-talks-31-10-2023)
+### **GoTalks 31.10.2023.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/296928055/) [<img src="assets/images/codotto.jpg" alt="codotto.com" width="24"/>](https://codotto.com/meetups/go-talks-31-10-2023) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://www.youtube.com/watch?v=bdsGTWcurkk)
 - [Processing spreadsheets in Go](assets/2023/10/POINTER-Open-source-S003-Prezentacija-Go-Meetup-2023-10-en.pdf)
 by [Branko Zecevic](https://www.linkedin.com/in/bzecevic/)
 - [Examples](assets/2023/10/)
 
-### **GoTalks 26.09.2023.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/296122228/) [<img src="assets/images/codotto.jpg" alt="codotto.com" width="24"/>](https://codotto.com/meetups/go-talks)
+### **GoTalks 26.09.2023.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/296122228/) [<img src="assets/images/codotto.jpg" alt="codotto.com" width="24"/>](https://codotto.com/meetups/go-talks) [<img src="assets/images/youtube_logo.jpg" alt="youtube" width="24"/>](https://youtu.be/kAwKnqyPxPc)
 - [Web scrapping and different ideas about UI (do we need it)](https://github.com/oktalz/go-meetup-2023-09-26/)
 by [Zlatko Bratkovic](https://www.linkedin.com/in/bratkoviczlatko/)
 
@@ -54,7 +54,7 @@ by [Neven Miculinić](https://www.linkedin.com/in/nmiculinic/)
 - **Kako si olakšati dijagnostiku i debugiranje Golang mikroservisa**
 by Matija Salopek
 
-### [GoTalks 21.04.2020.](https://www.meetup.com/Golang-ZG/events/269914818/)
+### [GoTalks 21.04.2020.](https://www.meetup.com/Golang-ZG/events/269914818/)  [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://youtu.be/pBrPGmJUUlk)
 - **Kubernetes Operators: Safety First Through Model Checkers**
 by [Neven Miculinić](https://www.linkedin.com/in/nmiculinic/)
 
