@@ -1,5 +1,11 @@
 # meetup talks
 
+## 2024
+
+### **GoTalks 30.01.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/298719089/) [<img src="assets/images/codotto.jpg" alt="codotto.com" width="24"/>](https://codotto.com/meetups/go-talks-30-01-2024-govulncheck-go-licenses-task) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://youtu.be/kKDWa37bhEw)
+- [Go tools - govulncheck, go-licenses, task](assets/2024/01/GoMeetup-2024-01.pdf)
+by [Zlatko Bratkovic](https://www.linkedin.com/in/bratkoviczlatko/)
+
 ## 2023
 
 ### **GoTalks 28.11.2023.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/297444887/) [<img src="assets/images/codotto.jpg" alt="codotto.com" width="24"/>](https://codotto.com/meetups/gotalks-28-11-2023) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://youtu.be/qg3fhXN6kFs)
