@@ -1,4 +1,4 @@
-# meetup talks
+# Meetup Talks
 
 ## 2024
 
@@ -8,7 +8,7 @@ by [Branko Zecevic](https://www.linkedin.com/in/bzecevic/)
 - [Examples](assets/2024/06/)
 
 ### **GoTalks 21.5.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/301005589/) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://youtu.be/Mk4yzDixDgc)
-- **Building Terminal User Interfaces with BubbleTea**
+- [Building Terminal User Interfaces with BubbleTea](assets/2024/05/GoMeetup%20-%20Zagreb%20-%202024-05-21%20-%20TUI%20Apps%20with%20BubbleTea.pptx.pdf)
 by [Marin Barišić](https://www.linkedin.com/in/barisicmarin/)
 
 ### **GoTalks 9.4.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/300149656/) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://youtu.be/beCVwhHiH1E)
@@ -48,7 +48,7 @@ by [Zlatko Bratkovic](https://www.linkedin.com/in/bratkoviczlatko/)
 by [Bruno Banelli](https://www.linkedin.com/in/brunobanelli/)
 
 ### **GoTalks 23.05.2023.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/293588389/)
-- [Benchmarking: Interface vs Generics)](https://docs.google.com/presentation/d/1VDOhXDVzhYGu-rJfvKTg5in5aZosC0RSsJLLRgVga6M/edit?usp=sharing)
+- [Benchmarking: Interface vs Generics](https://docs.google.com/presentation/d/1VDOhXDVzhYGu-rJfvKTg5in5aZosC0RSsJLLRgVga6M/edit?usp=sharing)
 by [Zlatko Bratkovic](https://www.linkedin.com/in/bratkoviczlatko/)
 
 ### **GoTalks 11.04.2023.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/292548923/)
@@ -56,7 +56,7 @@ by [Zlatko Bratkovic](https://www.linkedin.com/in/bratkoviczlatko/)
 by [Bruno Banelli](https://www.linkedin.com/in/brunobanelli/)
 
 ### **GoTalks 21.03.2023.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/292109948/)
-- [Code coverage - može li 100% code coverage garantirati sreću i zadovoljstvo)](https://docs.google.com/presentation/d/19BT4dJZGT6MklNTk_1VB711mmlx0OFfBpsJD2eHP4xs/edit?usp=sharing)
+- [Code coverage: Može li 100% code coverage garantirati sreću i zadovoljstvo](https://docs.google.com/presentation/d/19BT4dJZGT6MklNTk_1VB711mmlx0OFfBpsJD2eHP4xs/edit?usp=sharing)
 by [Zlatko Bratkovic](https://www.linkedin.com/in/bratkoviczlatko/)
 
 ### **GoTalks 21.02.2023.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/292548923/)
