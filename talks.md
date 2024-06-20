@@ -46,6 +46,34 @@ by [Zlatko Bratkovic](https://www.linkedin.com/in/bratkoviczlatko/)
 - **Optimising speed, security and flexibility of JWT with Go**
 by [Bruno Banelli](https://www.linkedin.com/in/brunobanelli/)
 
+
+## 2022
+
+### **GoTalks 15.11.2022.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/289685521/)
+- **Go Offensive Building Blocks**
+by Vlatko Kosturjak 
+
+### **GoTalks 3.10.2022.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/288520286/)
+- **How Go helps us process millions of phone calls per day and detect spam**
+by Zvonimir Radoš
+
+### **GoTalks 5.7.2022.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/286710728/)
+- **Testiranje u Go-u**
+by [Zlatko Bratkovic](https://www.linkedin.com/in/bratkoviczlatko/)
+
+### **GoTalks 26.4.2022.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/285411429/)
+- **Go 1.18, Generics, Fuzzing, ...**
+by [Zlatko Bratkovic](https://www.linkedin.com/in/bratkoviczlatko/)
+
+### **GoTalks 22.3.2022.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/284627012/)
+- **Data contracts using Protocol Buffers**
+by Mislav Mandarić 
+
+### **GoTalks 25.1.2022.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/283356786/)
+- **Optimizacija koda**
+by [Zlatko Bratkovic](https://www.linkedin.com/in/bratkoviczlatko/)
+
+
 ## 2021
 
 ### **GoTalks 10.11.2021.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/281873898/)
