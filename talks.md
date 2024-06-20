@@ -7,15 +7,15 @@
 by [Branko Zecevic](https://www.linkedin.com/in/bzecevic/)
 - [Examples](assets/2024/06/)
 
-### **GoTalks 21.5.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/301005589/) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://youtu.be/Mk4yzDixDgc?si=fCiu_FM3d5VUoP3S)
+### **GoTalks 21.5.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/301005589/) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://youtu.be/Mk4yzDixDgc)
 - **Building Terminal User Interfaces with BubbleTea**
 by [Marin Barišić](https://www.linkedin.com/in/barisicmarin/)
 
-### **GoTalks 9.4.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/300149656/) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://youtu.be/beCVwhHiH1E?si=H4qQV-nW-X73IwyJ)
+### **GoTalks 9.4.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/300149656/) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://youtu.be/beCVwhHiH1E)
 - **Web Sockets in Microservice architecture**
 by Asseco
 
-### **GoTalks 20.2.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/299180885/) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://youtu.be/7fd7-w2oa7k?si=SpFAaYI2OYzq8yJ3)
+### **GoTalks 20.2.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/299180885/) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://youtu.be/7fd7-w2oa7k)
 - **Go 1.22**
 by [Zlatko Bratkovic](https://www.linkedin.com/in/bratkoviczlatko/)
 
@@ -31,7 +31,7 @@ by [Bruno Banelli](https://www.linkedin.com/in/brunobanelli/)
 - [Go news](assets/2023/11/GoNews_2023_11_28.pdf)
 by [Zlatko Bratkovic](https://www.linkedin.com/in/bratkoviczlatko/)
 
-### **GoTalks 31.10.2023.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/296928055/) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://www.youtube.com/watch?v=bdsGTWcurkk)
+### **GoTalks 31.10.2023.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/296928055/) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://youtu.be/bdsGTWcurkk)
 - [Processing spreadsheets in Go](assets/2023/10/POINTER-Open-source-S003-Prezentacija-Go-Meetup-2023-10-en.pdf)
 by [Branko Zecevic](https://www.linkedin.com/in/bzecevic/)
 - [Examples](assets/2023/10/)
