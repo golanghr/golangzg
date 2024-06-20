@@ -2,6 +2,22 @@
 
 ## 2024
 
+### **GoTalks 18.6.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/301567254/)
+- **Creating PDF documents with Go**
+by [Branko Zecevic](https://www.linkedin.com/in/bzecevic/)
+
+### **GoTalks 21.5.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/301005589/)
+- **Building Terminal User Interfaces with BubbleTea**
+by [Marin Barišić](https://www.linkedin.com/in/barisicmarin/)
+
+### **GoTalks 9.4.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/300149656/)
+- **Web Sockets in Microservice architecture**
+by Asseco
+
+### **GoTalks 20.2.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/299180885/)
+- **Go 1.22**
+by [Zlatko Bratkovic](https://www.linkedin.com/in/bratkoviczlatko/)
+
 ### **GoTalks 30.01.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/298719089/) [<img src="assets/images/codotto.jpg" alt="codotto.com" width="24"/>](https://codotto.com/meetups/go-talks-30-01-2024-govulncheck-go-licenses-task) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://youtu.be/kKDWa37bhEw)
 - [Go tools - govulncheck, go-licenses, task](assets/2024/01/GoMeetup-2024-01.pdf)
 by [Zlatko Bratkovic](https://www.linkedin.com/in/bratkoviczlatko/)
