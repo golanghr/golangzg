@@ -7,15 +7,15 @@
 by [Branko Zecevic](https://www.linkedin.com/in/bzecevic/)
 - [Examples](assets/2024/06/)
 
-### **GoTalks 21.5.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/301005589/)
+### **GoTalks 21.5.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/301005589/) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://youtu.be/Mk4yzDixDgc?si=fCiu_FM3d5VUoP3S)
 - **Building Terminal User Interfaces with BubbleTea**
 by [Marin Barišić](https://www.linkedin.com/in/barisicmarin/)
 
-### **GoTalks 9.4.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/300149656/)
+### **GoTalks 9.4.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/300149656/) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://youtu.be/beCVwhHiH1E?si=H4qQV-nW-X73IwyJ)
 - **Web Sockets in Microservice architecture**
 by Asseco
 
-### **GoTalks 20.2.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/299180885/)
+### **GoTalks 20.2.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/299180885/) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://youtu.be/7fd7-w2oa7k?si=SpFAaYI2OYzq8yJ3)
 - **Go 1.22**
 by [Zlatko Bratkovic](https://www.linkedin.com/in/bratkoviczlatko/)
 
