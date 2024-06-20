@@ -44,7 +44,7 @@ by [Zlatko Bratkovic](https://www.linkedin.com/in/bratkoviczlatko/)
 - Drinkup
 
 ### **GoTalks 20.06.2023.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/294158846/)
-- **Go ASM - deep dive**
+- [Go ASM - deep dive](assets/2023/06/GoMeetup%20-%20Zagreb%20-%202023-06-20.pdf)
 by [Bruno Banelli](https://www.linkedin.com/in/brunobanelli/)
 
 ### **GoTalks 23.05.2023.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/293588389/)
