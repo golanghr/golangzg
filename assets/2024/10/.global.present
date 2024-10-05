@@ -1,0 +1,4 @@
+.title(Go 1.23 & Present)
+.global.font-size(5svh)
+.global.hide.page.number
+.//author: Zlatko Bratkovic
