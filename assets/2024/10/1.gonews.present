@@ -1,0 +1,303 @@
+.=========================================
+.center
+&nbsp;
+&nbsp;
+&nbsp;
+.slide.title(GoTalks)
+.{font-size: 15svh;text-shadow: 0 0 0.6svh #FFFFFF, 0 0 3svh #000000; color: #1c264a;}(**GoTalks 01.10.2024**)
+.center.end
+
+.slide.background(assets/golang-back.png)
+.=========================================
+.MEETUP_TITLE Go 1.23
+
+
+- https://go.dev/doc/go1.23
+
+```sh
+$ go install golang.org/dl/go1.23.0@latest
+$ go1.23.0 download
+```
+
+.=========================================
+.MEETUP_TITLE Changes - range-over-func
+
+#space#
+
+The `range` clause in a `for-range` loop now accepts iterator functions of the following types
+
+```go
+func(func() bool)
+func(func(K) bool)
+func(func(K, V) bool)
+```
+
+.=========================================
+.MEETUP_TITLE Changes - Iterators - slices
+.global.font-size(4.9svh)
+
+https://tip.golang.org/doc/go1.23#iterators
+
+- [All](https://tip.golang.org/pkg/slices#All) returns an iterator over slice indexes and values.
+- [Values](https://tip.golang.org/pkg/slices#Values) returns an iterator over slice elements.
+- [Backward](https://tip.golang.org/pkg/slices#Backward) returns an iterator that loops over a slice backward.
+- [Collect](https://tip.golang.org/pkg/slices#Collect) collects values from an iterator into a new slice.
+- [AppendSeq](https://tip.golang.org/pkg/slices#AppendSeq) appends values from an iterator to an existing slice.
+- [Sorted](https://tip.golang.org/pkg/slices#Sorted) collects values from an iterator into a new slice, and then sorts the slice.
+- [SortedFunc](https://tip.golang.org/pkg/slices#SortedFunc) is like Sorted but with a comparison function.
+- [SortedStableFunc](https://tip.golang.org/pkg/slices#SortedStableFunc) is like SortFunc but uses a stable sort algorithm.
+- [Chunk](https://tip.golang.org/pkg/slices#All) returns an iterator over consecutive sub-slices of up to n elements of a slice.
+
+.=========================================
+.MEETUP_TITLE Changes - Iterators - maps
+
+https://tip.golang.org/doc/go1.23#iterators
+
+- [All](https://tip.golang.org/pkg/maps#All) returns an iterator over key-value pairs from a map.
+- [Keys](https://tip.golang.org/pkg/maps#Keys) returns an iterator over keys in a map.
+- [Values](https://tip.golang.org/pkg/maps#Values) returns an iterator over values in a map.
+- [Insert](https://tip.golang.org/pkg/maps#Insert) adds the key-value pairs from an iterator to an existing map.
+- [Collect](https://tip.golang.org/pkg/maps#Collect) collects key-value pairs from an iterator into a new map and returns it.
+
+.=========================================
+.MEETUP_TITLE Changes - range-over-func - slices
+
+```go
+slices.All(s)
+slices.Values(s)
+slices.Backward(s)
+
+slices.Collect(slices.Values(s)) // new slice
+
+slices.AppendSeq(s, slices.Values(source))
+slices.Sorted(slices.Values(s))
+slices.SortedFunc(slices.Values(s), compare)
+```
+.=========================================
+.MEETUP_TITLE Changes - range-over-func - maps
+
+```go
+maps.All(m)
+maps.Keys(m) // Iterator over keys
+maps.Values(m)
+maps.Insert(m, maps.All(m1))
+maps.Collect(maps.All(m1)) // new map
+```
+
+.=========================================
+.MEETUP_TITLE Changes - range-over-func
+
+.tabs
+.tab(go.mod)
+.cast.stream.save(go.mod)
+```go
+module hello
+
+go 1.23
+```
+.tab{active}(main.go)
+.cast.stream.edit.save(main.go).run(go run .).before(go mod init x).show(3:13)
+```go
+package main
+
+import (
+    "fmt"
+    "slices"
+)
+
+func main() {
+  s := []string{"a", "b", "c"}
+  for i, v := range slices.All(s) {
+    fmt.Printf("%d:%v ", i, v)
+  }
+}
+```
+.tabs.end
+
+.=========================================
+.MEETUP_TITLE Changes - range-over-func
+.slide.keep.page.print.on.transition
+
+.tabs
+.tab(go.mod)
+.cast.stream.save(go.mod)
+```go
+module hello
+
+go 1.23
+```
+.tab{#tab1#}(backward.go)
+.cast.stream.edit.save(backward.go).show(3:100)
+```go
+package main
+
+func Backward[E any](s []E) func(func(int, E) bool) {
+	return func(yield func(int, E) bool) {
+		for i := len(s)-1; i >= 0; i-- {
+			if !yield(i, s[i]) {
+				return
+			}
+		}
+	}
+}
+```
+
+.tab{#tab2#}(backward-str.go)
+.cast.stream.edit.save(backward-str.go).show(3:100)
+```go
+package main
+
+func BackwardStr(s []string) func(func(int, string) bool) {
+	return func(yield func(int, string) bool) {
+		for i := len(s)-1; i >= 0; i-- {
+			if !yield(i, s[i]) {
+				return
+			}
+		}
+	}
+}
+```
+.tab{#tab3#}(main.go)
+.cast.stream.edit.save(main.go).run(go run .).before(go mod init x).show(7:100)
+```go
+package main
+
+import (
+    "fmt"
+)
+
+func main() {
+  s := []string{"a", "b", "c"}
+  for i, v := range Backward(s) {
+    fmt.Printf("%d:%v ", i, v)
+  }
+  fmt.Println("")
+  for i, v := range BackwardStr(s) {
+    fmt.Printf("%d:%v ", i, v)
+  }
+}
+```
+.tabs.end
+.transition{#tab1#}(#empty#).transition{#tab2#}(#active#)
+.transition{#active#}(#empty#).transition{#tab3#}(#active#)
+.=========================================
+.MEETUP_TITLE Changes - range-over-func
+.slide.font-size(3.5svh)
+.slide.keep.page.print.on.transition
+
+.tabs
+.tab{}(go.mod)
+.cast.stream.edit.source({code/filter}go.mod)
+
+.tab{#tab1#}(type.go)
+.cast.stream.edit.source({code/filter}type.go).show(3:100)
+
+.tab{#tab2#}(data.go)
+.cast.stream.edit.source({code/filter}data.go).show(3:100)
+
+.tab{#tab3#}(filtering)
+.div{height:3.5svh;}()
+.block.source({code/filter}filter.go).show(5:12)
+
+.tab{#tab4#}(filter.go)
+.cast.stream.edit.source({code/filter}filter.go).show(3:100)
+
+.tab{#tab5#}(sorting)
+.div{height:3.5svh;}()
+.block.source({code/filter}sort.go).show(9:23)
+
+.tab{#tab6#}(sort.go)
+.cast.stream.edit.source({code/filter}sort.go).show(7:100)
+
+.tab{#tab7#}(main.go)
+.cast.stream.edit.source({code/filter}main.go).show(6:18).run(go run .).before(go mod init x).path(code/filter)
+
+.tabs.end
+
+.transition{#tab1#}(#empty#).transition{#tab2#}(#active#)
+.transition{#active#}(#empty#).transition{#tab3#}(#active#)
+.transition{#active#}(#empty#).transition{#tab4#}(#active#)
+.transition{#active#}(#empty#).transition{#tab5#}(#active#)
+.transition{#active#}(#empty#).transition{#tab6#}(#active#)
+.transition{#active#}(#empty#).transition{#tab7#}(#active#)
+.=======================================================
+.MEETUP_TITLE Telemetry
+
+.slide.terminal.font-size(3.5svh)
+.cast.stream.save(go.mod)
+```go
+module hello
+
+go 1.23
+```
+
+.cast.stream.save(run.sh).run(sh run.sh).before(go telemetry local)
+```go
+go telemetry on
+```
+
+https://telemetry.go.dev/
+
+.=======================================================
+.MEETUP_TITLE Other Changes
+
+### Go
+```sh
+go mod tidy -diff
+```
+- causes the command not to modify the files but instead print the necessary changes as a unified diff.
+- It exits with a non-zero code if updates are needed.
+
+### CGo
+
+- `cmd/cgo` supports the new `-ldflags` flag for passing flags to the C linker
+
+.=======================================================
+.MEETUP_TITLE Other Changes
+
+Compiler
+- The build time overhead to building with Profile Guided Optimization has been reduced significantly.
+Previously, large builds could see 100%+ build time increase from enabling PGO. In Go 1.23, overhead should be in the `single digit` percentages.
+
+- The compiler in Go 1.23 can now overlap the stack frame slots of local variables accessed in disjoint regions of a function, which `reduces stack usage` for Go applications.
+
+.=======================================================
+.MEETUP_TITLE Other Changes
+
+Compiler
+- For 386 and amd64, the compiler will use information from PGO to align certain hot blocks in loops.
+  This `improves performance` an additional 1-1.5% at a cost of an additional 0.1% text and binary size.
+  This is currently only implemented on `386` and `amd64` because it has not shown an improvement on other platforms.
+
+.=======================================================
+.MEETUP_TITLE Timer
+
+- Significant changes to the implementation of `time.Timer` and `time.Ticker`.
+  - Timers and Tickers that are no longer referred to by the program become eligible for garbage collection immediately
+  - the timer channel associated with a Timer or Ticker is now unbuffered, with capacity 0
+  - `time.After()`
+  ```go
+  // As of Go 1.23, the garbage collector can recover
+  // unreferenced, unstopped timers. There is no reason
+  // to prefer NewTimer when After will do.
+  ```
+.=======================================================
+.MEETUP_TITLE Community
+
+- Go version manager, written in Go
+  - https://github.com/kevincobain2000/gobrew
+
+.css{font-size:4.5svh}
+```sh
+go install github.com/kevincobain2000/gobrew/cmd/gobrew@latest
+```
+```sh
+gobrew use latest
+```
+.css.end
+
+.MEETUP_TITLE Community
+
+- Go features by version
+  - https://antonz.org/which-go/
+- https://antonz.org/go-1-23/

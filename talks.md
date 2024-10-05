@@ -2,6 +2,15 @@
 
 ## 2024
 
+### **GoTalks 01.10.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/303525605/) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://www.youtube.com/watch?v=KV-3WZr0dGM) [<img src="assets/images/pdf.png" alt="png" width="24"/>](assets/2024/10/assets/Go-meetup-10-2024.pdf)
+- **Go 1.23** by [Zlatko Bratkovic](https://www.linkedin.com/in/bratkoviczlatko/)
+- present - alternative to presentation tools written in Go by [Zlatko Bratkovic](https://www.linkedin.com/in/bratkoviczlatko/)
+- local run
+  ```sh
+  go install github.com/oktalz/present@v1.0.0
+  present --admin-pwd-disable -g github.com/golanghr/golangzg -d assets/2024/10
+  ```
+
 ### **GoTalks 18.6.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/301567254/)
 - [Creating PDF documents with Go](assets/2024/06/POINTER-Open-source-S005-Prezentacija-PDF-GolangZG-GoTalks-2024-06-en.pdf)
 by [Branko Zecevic](https://www.linkedin.com/in/bzecevic/)
@@ -68,7 +77,7 @@ by [Bruno Banelli](https://www.linkedin.com/in/brunobanelli/)
 
 ### **GoTalks 15.11.2022.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/289685521/)
 - **Go Offensive Building Blocks**
-by Vlatko Kosturjak 
+by Vlatko Kosturjak
 
 ### **GoTalks 3.10.2022.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/288520286/)
 - **How Go helps us process millions of phone calls per day and detect spam**
@@ -84,7 +93,7 @@ by [Zlatko Bratkovic](https://www.linkedin.com/in/bratkoviczlatko/)
 
 ### **GoTalks 22.3.2022.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/284627012/)
 - **Data contracts using Protocol Buffers**
-by Mislav Mandarić 
+by Mislav Mandarić
 
 ### **GoTalks 25.1.2022.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/283356786/)
 - **Optimizacija koda**

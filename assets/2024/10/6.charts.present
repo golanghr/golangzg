@@ -1,0 +1,38 @@
+.================================
+.TITLE2 Graphs - chart.js (`experimental`) - pie
+- integrated js library, need to use raw html
+- **only** pixel options for sizes :(
+.raw
+<div style="height: 67svh; margin-left: 25svw">
+  <canvas id="myChart2"></canvas>
+</div>
+<script>
+  const ctx2 = document.getElementById('myChart2');
+
+  config = {
+    type: 'pie',
+    data: {
+        labels: ['Red', 'Green', 'Blue'],
+        datasets: [{
+        label: 'My Dataset',
+        data: [300, 50, 100],
+        backgroundColor: ['red', 'green', 'blue']
+        }]
+    },
+    options: {
+        plugins: {
+
+      legend: {
+        labels: {
+          font: {
+            size: 48
+          }
+        }
+      }
+        }
+    }
+  };
+
+  new Chart(ctx2, config);
+</script>
+.raw.end
