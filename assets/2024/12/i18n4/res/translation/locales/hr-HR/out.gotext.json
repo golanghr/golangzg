@@ -1,0 +1,124 @@
+{
+    "language": "hr-HR",
+    "messages": [
+        {
+            "id": "Welcome to i18n",
+            "message": "Welcome to i18n",
+            "translation": "Dobrodošli u i18n"
+        },
+        {
+            "id": "Payment = {PaymentCode}",
+            "message": "Payment = {PaymentCode}",
+            "translation": "Plaćanje = {PaymentCode}",
+            "placeholders": [
+                {
+                    "id": "PaymentCode",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "paymentCode"
+                }
+            ]
+        },
+        {
+            "id": "Revenue = {Revenue}",
+            "message": "Revenue = {Revenue}",
+            "translation": "Promet = {Revenue}",
+            "placeholders": [
+                {
+                    "id": "Revenue",
+                    "string": "%[1]f",
+                    "type": "float64",
+                    "underlyingType": "float64",
+                    "argNum": 1,
+                    "expr": "revenue"
+                }
+            ]
+        },
+        {
+            "id": "Int = {I} \t Float = {F}",
+            "message": "Int = {I} \t Float = {F}",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "I",
+                    "string": "%[1]d",
+                    "type": "int",
+                    "underlyingType": "int",
+                    "argNum": 1,
+                    "expr": "i"
+                },
+                {
+                    "id": "F",
+                    "string": "%.2[2]f",
+                    "type": "float64",
+                    "underlyingType": "float64",
+                    "argNum": 2,
+                    "expr": "f"
+                }
+            ]
+        },
+        {
+            "id": "Int = {Decimali} \t Float = {Decimalf} \t Percent = {Percentp}",
+            "message": "Int = {Decimali} \t Float = {Decimalf} \t Percent = {Percentp}",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Decimali",
+                    "string": "%[1]v",
+                    "type": "golang.org/x/text/number.Formatter",
+                    "underlyingType": "struct{*golang.org/x/text/number.options; value interface{}}",
+                    "argNum": 1,
+                    "expr": "number.Decimal(i)"
+                },
+                {
+                    "id": "Decimalf",
+                    "string": "%[2]v",
+                    "type": "golang.org/x/text/number.Formatter",
+                    "underlyingType": "struct{*golang.org/x/text/number.options; value interface{}}",
+                    "argNum": 2,
+                    "expr": "number.Decimal(f)"
+                },
+                {
+                    "id": "Percentp",
+                    "string": "%[3]v",
+                    "type": "golang.org/x/text/number.Formatter",
+                    "underlyingType": "struct{*golang.org/x/text/number.options; value interface{}}",
+                    "argNum": 3,
+                    "expr": "number.Percent(p)"
+                }
+            ]
+        },
+        {
+            "id": "Decimal width = {FormatWidth15}",
+            "message": "Decimal width = {FormatWidth15}",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "FormatWidth15",
+                    "string": "%[1]v",
+                    "type": "golang.org/x/text/number.Formatter",
+                    "underlyingType": "struct{*golang.org/x/text/number.options; value interface{}}",
+                    "argNum": 1,
+                    "expr": "number.Decimal(f, number.FormatWidth(15))"
+                }
+            ]
+        },
+        {
+            "id": "Decimal pad   = {Pad}",
+            "message": "Decimal pad   = {Pad}",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Pad",
+                    "string": "%[1]v",
+                    "type": "golang.org/x/text/number.Formatter",
+                    "underlyingType": "struct{*golang.org/x/text/number.options; value interface{}}",
+                    "argNum": 1,
+                    "expr": "number.Decimal(f, number.FormatWidth(15), number.Pad('#'))"
+                }
+            ]
+        }
+    ]
+}

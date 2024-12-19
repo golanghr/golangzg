@@ -2,6 +2,10 @@
 
 ## 2024
 
+### **GoTalks 17.12.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/305032788/)
+- Go News by [Zlatko Bratkovic](https://www.linkedin.com/in/bratkoviczlatko/) [<img src="assets/images/pdf.png" alt="png" width="24"/>](assets/2024/12/meetup-2024-12.pdf)
+- Go Internationalization (i18n) by [Branko Zečević](https://www.linkedin.com/in/bzecevic/) [<img src="assets/images/pdf.png" alt="png" width="24"/>](assets/2024/12/POINTER-Open-source-S006-Prezentacija-I18N-GolangZG-GoTalks-2024-12-en.pdf) ([Examples](assets/2024/12/))
+
 ### **GoTalks 01.10.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/303525605/) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://www.youtube.com/watch?v=KV-3WZr0dGM) [<img src="assets/images/pdf.png" alt="png" width="24"/>](assets/2024/10/assets/Go-meetup-10-2024.pdf)
 - **Go 1.23** by [Zlatko Bratkovic](https://www.linkedin.com/in/bratkoviczlatko/)
 - present - alternative to presentation tools written in Go by [Zlatko Bratkovic](https://www.linkedin.com/in/bratkoviczlatko/)
@@ -12,25 +16,20 @@
   ```
 
 ### **GoTalks 18.6.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/301567254/)
-- [Creating PDF documents with Go](assets/2024/06/POINTER-Open-source-S005-Prezentacija-PDF-GolangZG-GoTalks-2024-06-en.pdf)
-by [Branko Zecevic](https://www.linkedin.com/in/bzecevic/)
-- [Examples](assets/2024/06/)
+- Creating PDF documents with Go by [Branko Zečević](https://www.linkedin.com/in/bzecevic/) [<img src="assets/images/pdf.png" alt="png" width="24"/>](assets/2024/06/POINTER-Open-source-S005-Prezentacija-PDF-GolangZG-GoTalks-2024-06-en.pdf) ([Examples](assets/2024/06/))
 
 ### **GoTalks 21.5.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/301005589/) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://youtu.be/Mk4yzDixDgc)
-- [Building Terminal User Interfaces with BubbleTea](assets/2024/05/GoMeetup%20-%20Zagreb%20-%202024-05-21%20-%20TUI%20Apps%20with%20BubbleTea.pptx.pdf)
-by [Marin Barišić](https://www.linkedin.com/in/barisicmarin/)
+- Building Terminal User Interfaces with BubbleTea by [Marin Barišić](https://www.linkedin.com/in/barisicmarin/) [<img src="assets/images/pdf.png" alt="png" width="24"/>](assets/2024/05/GoMeetup%20-%20Zagreb%20-%202024-05-21%20-%20TUI%20Apps%20with%20BubbleTea.pptx.pdf)
+
 
 ### **GoTalks 9.4.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/300149656/) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://youtu.be/beCVwhHiH1E)
-- **Web Sockets in Microservice architecture**
-by Asseco
+- Web Sockets in Microservice architecture by Asseco
 
 ### **GoTalks 20.2.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/299180885/) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://youtu.be/7fd7-w2oa7k)
-- **Go 1.22**
-by [Zlatko Bratkovic](https://www.linkedin.com/in/bratkoviczlatko/)
+- **Go 1.22** by [Zlatko Bratkovic](https://www.linkedin.com/in/bratkoviczlatko/)
 
 ### **GoTalks 30.01.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/298719089/) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://youtu.be/kKDWa37bhEw)
-- [Go tools - govulncheck, go-licenses, task](assets/2024/01/GoMeetup-2024-01.pdf)
-by [Zlatko Bratkovic](https://www.linkedin.com/in/bratkoviczlatko/)
+- Go tools - govulncheck, go-licenses, task by [Zlatko Bratkovic](https://www.linkedin.com/in/bratkoviczlatko/) [<img src="assets/images/pdf.png" alt="png" width="24"/>](assets/2024/01/GoMeetup-2024-01.pdf)
 
 ## 2023
 
@@ -42,7 +41,7 @@ by [Zlatko Bratkovic](https://www.linkedin.com/in/bratkoviczlatko/)
 
 ### **GoTalks 31.10.2023.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/296928055/) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://youtu.be/bdsGTWcurkk)
 - [Processing spreadsheets in Go](assets/2023/10/POINTER-Open-source-S003-Prezentacija-Go-Meetup-2023-10-en.pdf)
-by [Branko Zecevic](https://www.linkedin.com/in/bzecevic/)
+by [Branko Zečević](https://www.linkedin.com/in/bzecevic/)
 - [Examples](assets/2023/10/)
 
 ### **GoTalks 26.09.2023.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/296122228/) [<img src="assets/images/youtube_logo.jpg" alt="youtube" width="24"/>](https://youtu.be/kAwKnqyPxPc)

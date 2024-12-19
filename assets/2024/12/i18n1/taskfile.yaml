@@ -1,0 +1,61 @@
+version: '3'
+
+
+vars:
+  PROJECT_CODE: i18n
+
+  # folders
+  BIN_FOLDER: bin
+
+  # build options
+  # -v  print the names of packages as they are compiled
+  # -s  omit the symbol table and debug information
+  # -w  omit the DWARF symbol table
+  #
+  BUILD_OPTIONS: -v -ldflags="-s -w"
+
+  
+tasks:
+
+
+  default:
+    cmds:
+      - task: list-tools
+    silent: false
+
+
+  build:
+    cmds:
+      - go build {{.BUILD_OPTIONS}} 
+    silent: false
+
+
+  rebuild:
+    cmds:
+      - task: tidy
+      - task: verify
+      - task: build
+    silent: false
+
+
+  tidy:
+    cmds:
+      - go fmt ./...
+      - go mod tidy -v
+    silent: false
+
+
+  verify:
+    cmds:
+      - go mod verify
+      - go vet ./...
+    silent: false
+
+
+  list-tools:
+    cmds:
+      - go version
+      - gcc --version
+      - task --version
+    silent: false
+  

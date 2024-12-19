@@ -1,0 +1,12 @@
+{
+    "language": "en-US",
+    "messages": [
+        {
+            "id": "Welcome to i18n",
+            "message": "Welcome to i18n",
+            "translation": "Welcome to i18n",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        }
+    ]
+}
