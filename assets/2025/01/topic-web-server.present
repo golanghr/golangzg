@@ -1,0 +1,295 @@
+.===============================================================================
+.===============================================================================
+
+.center
+&nbsp;
+&nbsp;
+&nbsp;
+
+.{font-size: 3.2em;text-shadow: 0 0 3px #FFFFFF, 0 0 15px #000000;}(**writing http server**)
+.center.end
+
+.slide.background(assets/golang-back.png)
+
+.===============================================================================
+.TITLE{web server - `hello http`}
+
+```go
+import (
+  "fmt"
+  "net/http"
+)
+
+func helloWorld(w http.ResponseWriter, r *http.Request) {
+  fmt.Fprint(w, "Hello World")
+}
+
+func main() {
+  http.HandleFunc("/", helloWorld)
+  http.ListenAndServe(":8080", nil)
+}
+```
+.===============================================================================
+.TITLE{web server - `hello http`}
+
+```go
+func main() {
+  http.Server{
+    Addr:           ":8080",
+    ReadTimeout:    5 * time.Second,
+    WriteTimeout:   5 * time.Second,
+    IdleTimeout:    5 * time.Second,
+    MaxHeaderBytes: 1 << 20, // 1MB
+    Handler:        http.HandlerFunc(helloWorld),
+  }.ListenAndServe()
+}
+```
+
+.===============================================================================
+.TITLE{web server - `hello http`}
+
+```go
+server := &http.Server{
+  Addr:         cfg.Address + ":" + strconv.Itoa(cfg.Port),
+  ReadTimeout:  5 * time.Second,
+  WriteTimeout: 5 * time.Second,
+  IdleTimeout:  5 * time.Second,
+}
+
+err := server.ListenAndServe()
+if err != nil && !errors.Is(err, http.ErrServerClosed) {
+  log.Printf("HTTP server error: %s\n", err)
+}
+```
+
+.===============================================================================
+.TITLE{web server - `graceful shutdown`}
+
+.slide.font-size(3.8svh)
+
+```go
+signalCh := make(chan os.Signal, 1)
+signal.Notify(signalCh, syscall.SIGTERM, os.Interrupt)
+
+go func() {
+  log.Println("Listening on", server.Addr)
+  err := server.ListenAndServe()
+  // Handle the error
+}()
+
+<-signalCh
+// Shutdown the server gracefully
+log.Println("Shutting down...")
+shutdownCtx, cancelShutdown := context.WithTimeout(...)
+defer cancelShutdown()
+
+server.SetKeepAlivesEnabled(false)
+err := server.Shutdown(shutdownCtx)
+// Handle the error
+```
+
+.===============================================================================
+.TITLE{web server - `static files`}
+
+```go
+http.Handle("/{$}", Homepage(config))
+
+//go:embed ui/index.html
+var homePage []byte
+
+func Homepage(config configuration.Config) http.Handler {
+  return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+    _, err := w.Write(homePage)
+    if err != nil {
+      log.Println(err)
+      return
+    }
+  })
+}
+```
+
+.===============================================================================
+.TITLE{web server - `static files`}
+
+```go
+//go:embed ui/static
+var dist embed.FS
+
+// Sub returns an [FS] corresponding to the subtree
+// rooted at fsys's dir.
+sub, err := fs.Sub(dist, "ui/static")
+if err != nil {
+  panic(err)
+}
+wd, err := os.Getwd()
+if err != nil {
+  panic(err)
+}
+handler := http.FileServer(http.FS(sub))
+// ...
+```
+
+.===============================================================================
+.TITLE{web server - `static files - cache`}
+
+```go
+func Serve(w http.ResponseWriter, r *http.Request) {
+  if r.Header.Get("If-None-Match") == eTag {
+    w.WriteHeader(http.StatusNotModified)
+    return
+  }
+  // ...
+  rw.Header().Set("ETag", eTag)
+  // ...
+}
+```
+.===============================================================================
+.TITLE{web server - `content type`}
+
+```go
+func Serve(w http.ResponseWriter, r *http.Request) {
+  // ...
+  // Set the content type
+  w.Header().Set("Content-Type", "text/html")
+  // ...
+}
+```
+.===============================================================================
+.TITLE{web server - `authentication`}
+
+```go
+import (
+  "golang.org/x/crypto/bcrypt"
+)
+
+func cookieAuth(password string, r *http.Request) (bool) {
+  cookie, err := r.Cookie("present")
+  if err != nil {
+    return false
+  }
+
+  return bcrypt.CompareHashAndPassword(
+      []byte(cookie.Value), []byte(password)) == nil
+}
+```
+
+.===============================================================================
+.TITLE{web server - `middleware`}
+
+```go
+func AuthMiddleware(next http.Handler) http.Handler {
+  return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+    if !cookieAuth(config.Security.UserPwd, r) {
+      http.Error(w, "Unauthorized", http.StatusUnauthorized)
+      return
+    }
+    next.ServeHTTP(w, r)
+  })
+}
+```
+.===============================================================================
+.TITLE{web server - `middleware`}
+```go
+func AccessControlAllow(next http.Handler) http.Handler {
+  return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+    origin := r.Header.Get("Origin")
+    if origin != "" {
+      w.Header().Set("Access-Control-Allow-Origin", origin)
+    }
+    w.Header().Set("Access-Control-Allow-Methods",
+        "OPTIONS, POST, GET, PUT, DELETE")
+    w.Header().Set("Access-Control-Allow-Headers",
+        "Accept, Content-Type, Content-Length, Authorization")
+    next.ServeHTTP(w, r)
+  })
+}
+```
+.===============================================================================
+.TITLE{web server - `middleware`}
+```go
+func Recover(next http.Handler) http.Handler {
+  return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+    defer func() {
+      if r := recover(); r != nil {
+        log.Printf("recovered from panic: %v", r)
+        http.Error(w, "Internal Server Error", http.StatusInternalServerError)
+      }
+    }()
+    next.ServeHTTP(w, r)
+  })
+}
+```
+.===============================================================================
+.TITLE{web server - `timeouts`}
+
+.slide.font-size(3.4svh)
+
+```go
+func SSE(server data.Server, config configuration.Config) http.Handler {
+  return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+    flusher, ok := w.(http.Flusher)
+    if !ok {
+      http.Error(w, "Streaming not supported!", http.StatusNotAcceptable)
+      return
+    }
+
+    w.Header().Set("Content-Type", "text/event-stream")
+    w.Header().Set("Cache-Control", "no-cache")
+    w.Header().Set("Connection", "keep-alive")
+    //  ...
+    rc := http.NewResponseController(w)
+    err = rc.SetReadDeadline(time.Now().Add(time.Minute))
+    err = rc.SetWriteDeadline(time.Time{})
+    // ...
+    _, err := fmt.Fprintf(w, "%s\n\n", strings.Join(lines, "<br>"))
+    // handle error ...
+    flusher.Flush()
+}
+```
+.===============================================================================
+.TITLE{web server - `certificates`}
+
+.slide.font-size(3.9svh)
+
+```go
+cert, err := tls.LoadX509KeyPair("server-cert.pem", "server-key.pem")
+if err != nil {
+  fmt.Println("Error loading certificate:", err)
+  return
+}
+
+// Create an HTTPS server configuration
+config := &tls.Config{Certificates: []tls.Certificate{cert}}
+srv := &http.Server{
+  Addr:      ":443",
+  Handler:   http.HandlerFunc(helloHandler),
+  TLSConfig: config,
+}
+
+err = srv.ListenAndServeTLS("", "")
+// error handling
+```
+.===============================================================================
+.TITLE{web server - `certificates`}
+
+.slide.font-size(3.9svh)
+
+```go
+func getCertificates(*tls.ClientHelloInfo) (*tls.Certificate, error) {
+  certMutex.RLock()
+  defer certMutex.RUnlock()
+
+  if len(certs) > 0 {
+    return &certs[0], nil
+  }
+  return nil, nil
+}
+
+server := &http.Server{
+  Addr: ":443",
+  TLSConfig: &tls.Config{
+    GetCertificate: getCertificates,
+  },
+  },
+}
+```

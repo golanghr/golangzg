@@ -1,0 +1,143 @@
+.===============================================================================
+.===============================================================================
+
+.center
+&nbsp;
+&nbsp;
+&nbsp;
+
+.{font-size: 3.2em;text-shadow: 0 0 3px #FFFFFF, 0 0 15px #000000;}(**GoTalks 30.01.2025**)
+.center.end
+
+.slide.background(assets/golang-back.png)
+.===============================================================================
+.TITLE{How to reach us}
+
+#space#
+
+.css{text-align: center; display: flex;  justify-content: center; align-items: center;}
+.table
+.tr
+.td
+.image(assets/meetup.png :13svh)
+.td{text-align: left; padding-left: 5svw;}
+[meetup.com/Golang-ZG](https://www.meetup.com/Golang-ZG/)
+.tr
+.td{height: 13svh}
+.image(assets/youtube.svg :10svh)
+.td{text-align: left; padding-left: 5svw;}
+.{color:blue}(@)[golangzg](https://www.youtube.com/@golangzg)
+.tr
+.td
+.image(assets/github.svg :13svh)
+.td{text-align: left; padding-left: 5svw;}
+[github.com/golanghr/golangzg](https://github.com/golanghr/golangzg/blob/master/talks.md)
+.tr
+.td
+.image(assets/Bluesky_Logo.svg :13svh)
+.td{text-align: left; padding-left: 5svw;}
+.{color:blue}(@)[golangzg.bsky.social](https://bsky.app/profile/golangzg.bsky.social)
+.tr
+.td{height: 13svh}
+.image(assets/slack-new-logo.svg :12svh)
+.td{text-align: left; padding-left: 5svw;}
+[invite.slack.golangbridge.org](https://invite.slack.golangbridge.org/?fbclid=IwAR35p7rEaNkowXDxX8RvmWDvyhoAslx2QskpBBnHlVdKCXvRpCoxePMmHnA)
+.table.end
+.css.end
+
+.===============================================================================
+.TITLE{Go Developer Survey 2024 H2}
+.center
+.image(https://go.dev/blog/survey2024h2/csat.svg 90svw:80svh)
+.center.end
+.===============================================================================
+.TITLE{Go Developer Survey 2024 H2}
+.center
+.image(https://go.dev/blog/survey2024h2/os_dev.svg 90svw:80svh)
+.center.end
+.===============================================================================
+.TITLE{Go Developer Survey 2024 H2}
+
+.center
+.image(https://go.dev/blog/survey2024h2/editor_aware.svg 90svw:80svh)
+.center.end
+.===============================================================================
+.TITLE{Go Developer Survey 2024 H2}
+
+.center
+.image(https://go.dev/blog/survey2024h2/editor.svg 90svw:80svh)
+.center.end
+.===============================================================================
+.TITLE{Go Developer Survey 2024 H2}
+
+.center
+.image(https://go.dev/blog/survey2024h2/code_analysis.svg 90svw:80svh)
+.center.end
+.===============================================================================
+.TITLE{Go Developer Survey 2024 H2}
+
+.center
+.image(https://go.dev/blog/survey2024h2/cloud_platform.svg 90svw:80svh)
+.center.end
+.===============================================================================
+.TITLE{Go Developer Survey 2024 H2}
+
+.center
+.image(https://go.dev/blog/survey2024h2/ai_assist_tasks.svg 90svw:90svh)
+.center.end
+.===============================================================================
+.TITLE{Go Developer Survey 2024 H2}
+
+.center
+.image(https://go.dev/blog/survey2024h2/dev_challenges.svg 90svw:90svh)
+.center.end
+.===============================================================================
+.TITLE{Go Developer Survey 2024 H2}
+
+.center
+.image(https://go.dev/blog/survey2024h2/perf_freq.svg 90svw:80svh)
+.center.end
+.===============================================================================
+.TITLE{Go Developer Survey 2024 H2}
+
+.center
+.image(https://go.dev/blog/survey2024h2/simd_fam.svg 90svw:80svh)
+.center.end
+.===============================================================================
+.TITLE{Go Developer Survey 2024 H2}
+.css{position:relative; top: -13vh;}
+.center
+.image(https://go.dev/blog/survey2024h2/what_simd_impact.svg 90svw:120svh)
+.center.end
+.css.end
+.===============================================================================
+.TITLE{Go Developer Survey 2024 H2}
+.center
+.image(https://go.dev/blog/survey2024h2/go_exp.svg 90svw:80svh)
+.center.end
+.===============================================================================
+.TITLE{Go Developer Survey 2024 H2}
+.center
+.image(https://go.dev/blog/survey2024h2/dev_exp.svg 90svw:80svh)
+.center.end
+.===============================================================================
+.TITLE{Go Developer Survey 2024 H2}
+
+Highlights
+
+- 93% of survey respondents saying they felt satisfied while working with Go during the prior year.
+- 70% of respondents were using AI assistants when developing with Go. The most common uses were:
+  - LLM-based code completion
+  - writing tests
+  - generating Go code from natural language descriptions
+  - brainstorming.
+
+.===============================================================================
+.TITLE{Go Developer Survey 2024 H2}
+
+Highlights
+- Ease of deployment and an easy to use API/SDK for cloud providers.
+  - First-class Go support is critical to keeping up with developer expectations.
+- The biggest challenge for teams using Go was maintaining consistent coding standards across their codebase. This was often due to team members having different levels of Go experience and coming from different programming backgrounds, leading to inconsistencies in coding style and adoption of non-idiomatic patterns.
+
+.===============================================================================
