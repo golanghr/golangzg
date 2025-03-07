@@ -1,0 +1,14 @@
+.tab button.active {
+    background-color: #5DC9E2;
+}
+
+.page-header-present {
+    top: 1svh;
+}
+
+hr {
+    border: 0.25svh solid #5DC9E2;
+    margin-left: 2svw;
+    margin-right: 2svw;
+    background-color: #5DC9E2;
+}

@@ -1,0 +1,12 @@
+.===============================================================================
+
+.center
+&nbsp;
+&nbsp;
+&nbsp;
+
+.{font-size: 3.2em;text-shadow: 0 0 3px #FFFFFF, 0 0 15px #000000;}(**https - deep dive**)
+.center.end
+
+.slide.background(assets/golang-back.png)
+.===============================================================================
