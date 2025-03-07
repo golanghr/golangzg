@@ -1,5 +1,27 @@
 # Meetup Talks
 
+## 2025
+
+### **GoTalks 25.02.2025.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/306133678/) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://www.youtube.com/watch?v=SdbGc_vCg5g)
+- **Go 1.24**
+by [Zlatko Bratkovic](https://www.linkedin.com/in/bratkoviczlatko/) [<img src="assets/images/pdf.png" alt="png" width="24"/>](assets/2025/02/presentation.pdf)
+- local run
+  ```sh
+  go install github.com/oktalz/present@latest
+  present --admin-pwd-disable -g github.com/golanghr/golangzg -d assets/2025/02
+  ```
+- HTPPS - deep dive
+by [Bruno Banelli](https://www.linkedin.com/in/brunobanelli/) [<img src="assets/images/pdf.png" alt="png" width="24"/>](assets/2025/02/GoMeetupZg-2025-02-HTTPS-deep-dive.pdf)
+
+### **GoTalks 30.01.2025.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/305823027) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://www.youtube.com/watch?v=C8t7IAM3Nac)
+- **Go Developer Survey, writing http server**
+by [Zlatko Bratkovic](https://www.linkedin.com/in/bratkoviczlatko/) [<img src="assets/images/pdf.png" alt="png" width="24"/>](assets/2025/01/presentation.pdf)
+- local run
+  ```sh
+  go install github.com/oktalz/present@latest
+  present --admin-pwd-disable -g github.com/golanghr/golangzg -d assets/2025/01
+  ```
+
 ## 2024
 
 ### **GoTalks 17.12.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/305032788/)

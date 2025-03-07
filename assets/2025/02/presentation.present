@@ -1,0 +1,285 @@
+.===============================================================================
+.===============================================================================
+
+.center
+&nbsp;
+&nbsp;
+&nbsp;
+
+.{font-size: 3.2em;text-shadow: 0 0 3px #FFFFFF, 0 0 15px #000000;}(**GoTalks 25.02.2025**)
+.center.end
+
+.slide.background(assets/golang-back.png)
+.===============================================================================
+.TITLE{How to reach us}
+
+#space#
+
+.css{text-align: center; display: flex;  justify-content: center; align-items: center;}
+.table
+.tr
+.td
+.image(assets/meetup.png :13svh)
+.td{text-align: left; padding-left: 5svw;}
+[meetup.com/Golang-ZG](https://www.meetup.com/Golang-ZG/)
+.tr
+.td{height: 13svh}
+.image(assets/youtube.svg :10svh)
+.td{text-align: left; padding-left: 5svw;}
+.{color:blue}(@)[golangzg](https://www.youtube.com/@golangzg)
+.tr
+.td
+.image(assets/github.svg :13svh)
+.td{text-align: left; padding-left: 5svw;}
+[github.com/golanghr/golangzg](https://github.com/golanghr/golangzg/blob/master/talks.md)
+.tr
+.td
+.image(assets/Bluesky_Logo.svg :13svh)
+.td{text-align: left; padding-left: 5svw;}
+.{color:blue}(@)[golangzg.bsky.social](https://bsky.app/profile/golangzg.bsky.social)
+.tr
+.td{height: 13svh}
+.image(assets/slack-new-logo.svg :12svh)
+.td{text-align: left; padding-left: 5svw;}
+[invite.slack.golangbridge.org](https://invite.slack.golangbridge.org/?fbclid=IwAR35p7rEaNkowXDxX8RvmWDvyhoAslx2QskpBBnHlVdKCXvRpCoxePMmHnA)
+.table.end
+.css.end
+
+.===============================================================================
+.TITLE{Tehničko veleučilište u Zagrebu}
+
+- [tvz.hr](https://www.tvz.hr/)
+  - Borongajska cesta 83E, 10000, Zagreb, Croatia
+  - [maps.app.goo.gl/1jKZDsiqMbhZc7136](https://maps.app.goo.gl/1jKZDsiqMbhZc7136)
+    .raw{<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1030.7710016625715!2d16.040705419401533!3d45.810721586342304!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4766790020667469%3A0xa9a20d6e234405b1!2sTehni%C4%8Dko%20veleu%C4%8Dili%C5%A1te%20u%20Zagrebu%20(TVZ)%20-%20INRO!5e1!3m2!1sen!2sus!4v1739201892107!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>}
+
+.===============================================================================
+.TITLE{FOSDEM video recordings}
+
+## Open Source Developers’ European Meeting
+
+ - Brussels / 1 & 2 February 2025
+
+ - [fosdem.org](https://fosdem.org/)
+
+ - [fosdem.org/2025/ud2120/](https://video.fosdem.org/2025/ud2120/)
+.===============================================================================
+.TITLE{go tool}
+
+```go
+module myapp
+
+go 1.24.0
+
+tool (
+	github.com/google/go-licenses
+	golang.org/x/vuln/cmd/govulncheck
+	mvdan.cc/gofumpt
+)
+```
+#space#
+```bash
+go get -tool golang.org/x/vuln/cmd/govulncheck
+```
+#space#
+```bash
+go tool govulncheck -show verbose ./...
+```
+.===============================================================================
+.TITLE{go tool}
+
+- advantages:
+  - no need for external tooling (or extra installations)
+  - automatically track versions
+  - update is similar as any other package
+
+- disadvantages:
+  - dependencies mixed with code dependencies
+    - unexpected behavior of application / tool
+  - each time `go tool` is called, tool is compiled
+
+- `-modfile`
+  - separate file
+  ```bash
+  go get -tool -modfile tools/go.mod golang.org/x/vuln/cmd/govulncheck
+  ```
+.===============================================================================
+.TITLE{go tool alternatives}
+
+.===============================================================================
+.TITLE{strings & bytes}
+
+.cast.stream.edit.show{9:23}.save(main.go).run(go run .).before(go mod init x)
+```go
+package main
+
+import (
+	"fmt"
+	"strings"
+)
+
+func main() {
+text := "Hello\nWorld\nGo Programming\n"
+
+for _, line := range strings.Split(text,"\n") {
+	fmt.Printf("%q\n", line)
+}
+
+fmt.Println("================")
+
+lines := strings.FieldsFunc(text, func(r rune) bool {
+  return r == '\n'
+})
+
+for _, field := range lines {
+  fmt.Printf("%q\n", field)
+}
+}
+```
+.===============================================================================
+.TITLE{strings & bytes}
+
+The `strings` package adds several functions that work with iterators:
+- `Lines` returns an iterator over the newline-terminated lines in a string.
+- `SplitSeq` returns an iterator over all substrings of a string split around a separator.
+- `SplitAfterSeq` returns an iterator over substrings of a string split after each instance of a separator.
+- `FieldsSeq` returns an iterator over substrings of a string split around runs of whitespace characters, as defined by unicode.IsSpace.
+- `FieldsFuncSeq` returns an iterator over substrings of a string split around runs of Unicode code points satisfying a predicate.
+.cast.stream.edit.show{9:12}.save(main.go).run(go run .).before(go mod init x)
+```go
+package main
+
+import (
+	"fmt"
+	"strings"
+)
+
+func main() {
+text := "Hello\nWorld\nGo Programming\n"
+for line := range strings.Lines(text) {
+	fmt.Printf("%q\n", line)
+}
+}
+```
+.===============================================================================
+.TITLE{Not a type alias}
+
+.cast.stream.edit.path(examples/type-alias-not).source(main.go).show(5:1000).lang(go).run(go run .)
+.===============================================================================
+.TITLE{Generic type aliases}
+
+.slide.font-size(3.56svh)
+.cast.stream.edit.path(examples/type-alias).source(main.go).show(5:23).lang(go).run(go run .)
+.===============================================================================
+.TITLE{Weak pointers}
+
+.slide.font-size(3.56svh)
+.cast.stream.edit.path(examples/weak-pointers-string).source(main.go).show(17:1000).lang(go).run(go run .)
+.===============================================================================
+.TITLE{Weak pointers}
+
+.slide.font-size(3.56svh)
+.cast.stream.edit.path(examples/weak-pointers).source(main.go).show(22:1000).lang(go).run(go run .)
+
+.===============================================================================
+.TITLE{AddCleanup}
+
+- The new `runtime.AddCleanup` function
+  - finalization mechanism that is more flexible, more efficient, and less error-prone than `runtime.SetFinalizer`.
+
+- AddCleanup attaches a cleanup function to an object that will run once the object is no longer reachable.
+  - unlike SetFinalizer,
+    - multiple cleanups may be attached to a single object
+    - cleanups may be attached to interior pointers
+    - cleanups do not generally cause leaks when objects form a cycle,
+    - cleanups do not delay the freeing of an object or objects it points to.
+
+- New code should prefer AddCleanup over SetFinalizer.
+
+.===============================================================================
+.TITLE{Weak pointers + AddCleanup}
+
+.slide.font-size(3.8svh)
+
+.slide.keep.page.print.on.transition
+.replace{#active#}(active)
+.replace{#empty#}()
+.replace{#tab1#}(active)
+.replace{#tab2#}()
+.replace{#tab3#}()
+
+.tabs
+.tab{#tab1#}(Cache)
+.cast.source(main.go).show(10:20).path(examples/cleanup).lang(go)
+- nothing smart, just keep a string for certain int
+.tab{#tab2#}(Cache Add)
+.cast.source(main.go).show(21:36).path(examples/cleanup).lang(go)
+- on adding, automatically handle deletion too
+.tab{#tab3#}(Cache Get)
+.cast.source(main.go).show(37:49).path(examples/cleanup).lang(go)
+.tab{#tab4#}(Usage)
+.cast.source(main.go).show(52:63).path(examples/cleanup).lang(go).run(go run .)
+.tabs.end
+.transition{#tab1#}(#empty#).transition{#tab2#}(#active#)
+.transition{#active#}(#empty#).transition{#tab3#}(#active#)
+.transition{#active#}(#empty#).transition{#tab4#}(#active#)
+
+.===============================================================================
+.TITLE{Weak pointers + AddCleanup}
+.slide.font-size(3.8svh)
+.cast.source(main.go).show(46:63).path(examples/cleanup-2).lang(go).run(go run .)
+.===============================================================================
+.TITLE{Swiss tables}
+
+- [abseil.io/about/design/swisstables](https://abseil.io/about/design/swisstables)
+
+  - more efficient memory allocation of small objects
+
+  - new runtime-internal mutex implementation
+
+  - performance improvements can be expected
+.===============================================================================
+.TITLE{Directory-scoped filesystem access}
+
+- The new `os.Root` type
+  - provides the ability to perform filesystem operations within a specific directory.
+
+- The `os.OpenRoot` function opens a directory and returns an `os.Root`.
+  - Methods on `os.Root` operate within the directory and do **not** permit paths that refer to locations outside the directory, including ones that follow symbolic links out of the directory.
+  - Methods on `os.Root` mirror most of the file system operations available in the os package, including for example `os.Root.Open`, `os.Root.Create`, `os.Root.Mkdir`, and `os.Root.Stat`
+.===============================================================================
+.TITLE{FIPS 140-3 compliance}
+
+- [wikipedia.org/wiki/FIPS_140-3](https://en.wikipedia.org/wiki/FIPS_140-3)
+  - The Federal Information Processing Standard Publication 140-3 is a U.S. government computer security standard used to approve cryptographic modules.
+
+- [go.dev/doc/security/fips140](https://go.dev/doc/security/fips140)
+- The Go Cryptographic Module is a set of internal standard library packages that are transparently used to implement FIPS 140-3 approved algorithms.
+  - Applications require no changes to use the Go Cryptographic Module for approved algorithms.
+
+- The new `GOFIPS140` environment variable can be used to select the Go Cryptographic Module version to use in a build.
+- The new `fips140` GODEBUG setting can be used to enable FIPS 140-3 mode at runtime.
+
+- Go 1.24 includes Go Cryptographic Module version v1.0.0
+  - currently under test with a CMVP-accredited laboratory.
+.===============================================================================
+.TITLE{Go 1.24}
+
+- [golang.org/doc/go1.24](https://tip.golang.org/doc/go1.24)
+
+- improvements to the runtime have decreased CPU overheads by `2-3%` on average
+- #cgo `noescape`
+  - compiler => memory passed to the C func does not escape.
+- #cgo `nocallback`
+  - compiler => C func does not call back to any Go functions
+- `omitzero` - unlike `omitempty`, `omitzero` omits zero-valued `time.Time` values
+- ```go
+  go test -json
+  ```
+- ```go
+  go install -json
+  ```
+- ```go
+  go build -json
+  ```
+- ...
