@@ -1,0 +1,74 @@
+.=========================================
+.center
+&nbsp;
+&nbsp;
+&nbsp;
+.slide.title(GoTalks)
+.{font-size: 15svh;text-shadow: 0 0 0.6svh #FFFFFF, 0 0 3svh #000000; color: #1c264a;}(**GoTalks 17.12.2024**)
+.center.end
+
+.slide.background(assets/golang-back.png)
+.=========================================
+.MEETUP_TITLE Golang ZG
+
+You now have **612** members!
+
+#space#
+
+
+.image(assets/GolangZG-Joins.png :67svh)
+
+.=========================================
+.MEETUP_TITLE Golang ZG
+
+#space#
+
+.image(assets/GolangZG-active.png :73svh)
+.=========================================
+.MEETUP_TITLE Go 1.24 rc1
+
+
+- https://go.dev/doc/go1.24
+
+```sh
+$ go install golang.org/dl/go1.24rc1@latest
+$ go1.24rc1 download
+```
+
+.=========================================
+.MEETUP_TITLE Go News
+
+- .bx{bxl-github} memory regions
+  https://github.com/golang/go/discussions/70257
+- .bx{bxl-github} net/http: move HTTP/2 into the standard library
+  https://go.dev/issue/60746
+- .bx{bxl-github} gonew: templates for new module
+  https://go.dev/issue/61669
+
+.=========================================
+.MEETUP_TITLE Go News
+
+- .bx{bxl-github} encoding/json/v2
+  https://github.com/golang/go/discussions/63397
+  - The ability to specify custom formatting of time.Time
+  - The ability to omit specific Go values when marshaling
+  - The ability to marshal nil Go slices and maps as empty JSON arrays
+  - The ability to inline Go types without using Go embedding
+  - There is no easy way to correctly unmarshal from an io.Reader. Users often write `json.NewDecoder(r).Decode(v)`
+.// which is incorrect since it does not reject trailing junk at the end of the payload
+  - Options can be set on the Encoder and Decoder types, but cannot be used with the Marshal and Unmarshal functions
+  - Functions Compact, Indent, and HTMLEscape write to a
+    bytes.Buffer - more flexible like a []byte or io.Writer
+
+.=======================================================
+.MEETUP_TITLE Community
+
+- Fast JSON encoder/decoder compatible with encoding/json for Go
+  - github.com/goccy/go-json
+
+.css{font-size:4.5svh}
+```bash
+-import "encoding/json"
++import "github.com/goccy/go-json"
+```
+.css.end
