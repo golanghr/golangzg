@@ -1,0 +1,6 @@
+.title(Go web server)
+.global.font-size(4svh)
+.global.hide.page.number
+.//author: Zlatko Bratkovic
+.global.aspect-ratio-min(16x10)
+.global.aspect-ratio-max(2x1)
