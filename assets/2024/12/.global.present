@@ -1,0 +1,4 @@
+.title(Go i18n)
+.global.font-size(5svh)
+.global.hide.page.number
+.//author: Zlatko Bratkovic

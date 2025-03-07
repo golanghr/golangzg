@@ -1,0 +1,47 @@
+.template{MEETUP_TITLE}
+.header
+.div{font-size: 5svh; margin-bottom: 0px!important; margin-left: 13svw;}(##  {{.}})
+.div{position: absolute; top: 3svh; left: 2svh;}(.image(assets/1200px-Go_Logo_Blue.svg.png :7vh))
+<hr>
+.header.end
+.footer
+.div{font-size: 5svh; position: absolute; left: 91svw; bottom: 0svh; }(.image(assets/golang-zg-clean_462749266.png 8svw:))
+.div{font-size: 5svh; position: absolute; left: 81svw; bottom: 1svh; text-shadow: 0 0 0.1svh #FFFFFF, 0 0 2svw #000000; font-size: 4svh; color: white;}(#space#Meetup#space#)
+
+.footer.end
+.template.end
+
+.template{TITLE}
+.header
+.div{font-size: 5svh; margin-bottom: 0px!important; margin-left: 3svw;}(##  {{.}})
+<hr>
+.header.end
+.footer
+.div{font-size: 5svh; position: absolute; left: 91svw; bottom: 0svh;}(.image(icon.png 8svw:))
+.footer.end
+
+.template.end
+
+.template{CAST_FOLDER}
+.cast.run{({{ .}})go run .}
+.template.end
+
+.template{CAST}
+.cast.stream.edit.save(main.go).run(go run .).before(go mod init x)
+.template.end
+
+.template{FOOTER}
+.footer
+.div{min-width: 100svw; background-color: #a7a7a7; padding-left: 3svw; padding-top: 0.25svh; padding-bottom: 0.25svh; font-size: 2.5svh; color: white;  }(Go meetup 10/2024)
+.footer.end
+.template.end
+
+.template{TITLE2}
+.header
+.{font-size: 5svh;}(## .{background-color: #00ADD8}(#space#)#space##space#{{ . }})
+.raw
+<span style="margin-left:1svw;margin-right: 1svw;display: block;"><hr></span>
+.raw.end
+.header.end
+.FOOTER
+.template.end

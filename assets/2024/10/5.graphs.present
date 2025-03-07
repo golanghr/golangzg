@@ -16,9 +16,11 @@
 .================================
 .TITLE2{Graphs - d2}
 
-.css{width: 100svw; height: 60svh; overflow: hidden; font-size: 4svh!important;}
+.center
+.css{width: 50svw; height: 60svh; overflow: hidden; font-size: 4svh!important;}
 .block.path(graphs).source({graphs}scheduler.d2)
 .css.end
+.center.end
 
 .slide.font-size(3.78svh)
 ```txt
