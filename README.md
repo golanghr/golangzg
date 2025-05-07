@@ -2,12 +2,10 @@
 Golang Zagreb meetup group documents
 
 
-### Last Meetup - **GoTalks 27.03.2025.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/306718932/) 
-- Golang from the perspective of .Net developer
-by [Dražen Mrvoš](https://www.linkedin.com/in/dmrvos/) [<img src="assets/images/pdf.png" alt="png" width="24"/>](assets/2025/03/Zagreb-GoTalks-Meetup-27_3.pdf)
-- Async service communication
-by [Antonio Krstičević](https://www.linkedin.com/in/antoniokristicevic/) [<img src="assets/images/pdf.png" alt="png" width="24"/>](assets/2025/03/Zagreb-GoTalks-Meetup-27_3.pdf)
-  
+### Last Meetup - **GoTalks 29.4.2025.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/307302311/)
+- **Building Desktop Apps with Go** 
+by [Branko Zečević](https://www.linkedin.com/in/bzecevic/) [<img src="assets/images/pdf.png" alt="png" width="24"/>](assets/2025/04/POINTER-Open-source-S007-Prezentacija-Desktop-Apps-GolangZG-GoTalks-2025-04-en.pdf) 
+
 
 ### History
 [Meetup Talks History](talks.md)
