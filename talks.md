@@ -2,17 +2,28 @@
 
 ## 2025
 
-### **GoTalks 29.4.2025.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/307302311/)
-- **Building Desktop Apps with Go** 
-by [Branko Zečević](https://www.linkedin.com/in/bzecevic/) [<img src="assets/images/pdf.png" alt="png" width="24"/>](assets/2025/04/POINTER-Open-source-S007-Prezentacija-Desktop-Apps-GolangZG-GoTalks-2025-04-en.pdf) 
+### **GoTalks 24.6.2025.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/308525129/)
+- **GOing Live - Deploying your first app the right way** 
+by [Josip Igrec](https://www.linkedin.com/in/josip-igrec/)
 
-### **GoTalks 27.03.2025.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/306718932/) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://www.youtube.com/watch?v=6z9xuje4QXQ)
+
+### **GoTalks 27.5.2025.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/307898101/)
+- **Go packages and modules** 
+by [Zlatko Bratković](https://www.linkedin.com/in/bratkoviczlatko/) 
+
+
+### **GoTalks 29.4.2025.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/307302311/) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://www.youtube.com/watch?v=KNC483zH5xg)
+- **Building Desktop Apps with Go** 
+by [Branko Zečević](https://www.linkedin.com/in/bzecevic/), [Fran Cvok](https://www.linkedin.com/in/fran-040943246/) [<img src="assets/images/pdf.png" alt="png" width="24"/>](assets/2025/04/POINTER-Open-source-S007-Prezentacija-Desktop-Apps-GolangZG-GoTalks-2025-04-en.pdf) 
+
+
+### **GoTalks 27.3.2025.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/306718932/) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://www.youtube.com/watch?v=6z9xuje4QXQ)
 - **Golang from the perspective of .Net developer**
 by [Dražen Mrvoš](https://www.linkedin.com/in/dmrvos/) [<img src="assets/images/pdf.png" alt="png" width="24"/>](assets/2025/03/Zagreb-GoTalks-Meetup-27_3.pdf)
 - **Async service communication**
 by [Antonio Krstičević](https://www.linkedin.com/in/antoniokristicevic/) [<img src="assets/images/pdf.png" alt="png" width="24"/>](assets/2025/03/Zagreb-GoTalks-Meetup-27_3.pdf)
 
-### **GoTalks 25.02.2025.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/306133678/) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://www.youtube.com/watch?v=SdbGc_vCg5g)
+### **GoTalks 25.2.2025.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/306133678/) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://www.youtube.com/watch?v=SdbGc_vCg5g)
 - **Go 1.24**
 by [Zlatko Bratković](https://www.linkedin.com/in/bratkoviczlatko/) [<img src="assets/images/pdf.png" alt="png" width="24"/>](assets/2025/02/presentation.pdf)
 - local run
@@ -23,7 +34,7 @@ by [Zlatko Bratković](https://www.linkedin.com/in/bratkoviczlatko/) [<img src="
 - HTPPS - deep dive
 by [Bruno Banelli](https://www.linkedin.com/in/brunobanelli/) [<img src="assets/images/pdf.png" alt="png" width="24"/>](assets/2025/02/GoMeetupZg-2025-02-HTTPS-deep-dive.pdf)
 
-### **GoTalks 30.01.2025.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/305823027) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://www.youtube.com/watch?v=C8t7IAM3Nac)
+### **GoTalks 30.1.2025.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/305823027) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://www.youtube.com/watch?v=C8t7IAM3Nac)
 - **Go Developer Survey, writing http server**
 by [Zlatko Bratković](https://www.linkedin.com/in/bratkoviczlatko/) [<img src="assets/images/pdf.png" alt="png" width="24"/>](assets/2025/01/presentation.pdf)
 - local run
@@ -68,7 +79,7 @@ by Asseco
 - **Go 1.22** 
 by [Zlatko Bratković](https://www.linkedin.com/in/bratkoviczlatko/)
 
-### **GoTalks 30.01.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/298719089/) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://youtu.be/kKDWa37bhEw)
+### **GoTalks 30.1.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/298719089/) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://youtu.be/kKDWa37bhEw)
 - **Go tools - govulncheck, go-licenses, task**
 by [Zlatko Bratković](https://www.linkedin.com/in/bratkoviczlatko/) [<img src="assets/images/pdf.png" alt="png" width="24"/>](assets/2024/01/GoMeetup-2024-01.pdf)
 
@@ -85,30 +96,30 @@ by [Zlatko Bratković](https://www.linkedin.com/in/bratkoviczlatko/)
 by [Branko Zečević](https://www.linkedin.com/in/bzecevic/)
 - [Examples](assets/2023/10/)
 
-### **GoTalks 26.09.2023.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/296122228/) [<img src="assets/images/youtube_logo.jpg" alt="youtube" width="24"/>](https://youtu.be/kAwKnqyPxPc)
+### **GoTalks 26.9.2023.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/296122228/) [<img src="assets/images/youtube_logo.jpg" alt="youtube" width="24"/>](https://youtu.be/kAwKnqyPxPc)
 - [Web scrapping and different ideas about UI (do we need it)](https://github.com/oktalz/go-meetup-2023-09-26/)
 by [Zlatko Bratković](https://www.linkedin.com/in/bratkoviczlatko/)
 
-### **Go DrinkUp 25.07.2023.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/294880494/)
+### **Go DrinkUp 25.7.2023.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/294880494/)
 - Drinkup
 
-### **GoTalks 20.06.2023.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/294158846/)
+### **GoTalks 20.6.2023.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/294158846/)
 - [Go ASM - deep dive](assets/2023/06/GoMeetup%20-%20Zagreb%20-%202023-06-20.pdf)
 by [Bruno Banelli](https://www.linkedin.com/in/brunobanelli/)
 
-### **GoTalks 23.05.2023.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/293588389/)
+### **GoTalks 23.5.2023.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/293588389/)
 - [Benchmarking: Interface vs Generics](https://docs.google.com/presentation/d/1VDOhXDVzhYGu-rJfvKTg5in5aZosC0RSsJLLRgVga6M/edit?usp=sharing)
 by [Zlatko Bratković](https://www.linkedin.com/in/bratkoviczlatko/)
 
-### **GoTalks 11.04.2023.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/292548923/)
+### **GoTalks 11.4.2023.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/292548923/)
 - **TinyGo - može li blue collar jezik raditi na 133 MHz i stotinama kilobajta RAM-a**
 by [Bruno Banelli](https://www.linkedin.com/in/brunobanelli/)
 
-### **GoTalks 21.03.2023.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/292109948/)
+### **GoTalks 21.3.2023.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/292109948/)
 - [Code coverage: Može li 100% code coverage garantirati sreću i zadovoljstvo](https://docs.google.com/presentation/d/19BT4dJZGT6MklNTk_1VB711mmlx0OFfBpsJD2eHP4xs/edit?usp=sharing)
 by [Zlatko Bratković](https://www.linkedin.com/in/bratkoviczlatko/)
 
-### **GoTalks 21.02.2023.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/292548923/)
+### **GoTalks 21.2.2023.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/292548923/)
 - **Optimising speed, security and flexibility of JWT with Go**
 by [Bruno Banelli](https://www.linkedin.com/in/brunobanelli/)
 
@@ -169,23 +180,23 @@ by [Zlatko Bratković](https://www.linkedin.com/in/bratkoviczlatko/)
 - **Golang u sysops svijetu**
 by [Dinko Korunić](https://twitter.com/dkorunic)
 
-### [GoTalks 22.09.2020.](https://www.meetup.com/Golang-ZG/events/273209103/)
+### [GoTalks 22.9.2020.](https://www.meetup.com/Golang-ZG/events/273209103/)
 - **Service mesh**
 by [Neven Miculinić](https://www.linkedin.com/in/nmiculinic/)
 
-### [GoTalks 26.05.2020.](https://www.meetup.com/Golang-ZG/events/270725353/)
+### [GoTalks 26.5.2020.](https://www.meetup.com/Golang-ZG/events/270725353/)
 - **Kako si olakšati dijagnostiku i debugiranje Golang mikroservisa**
 by Matija Salopek
 
-### [GoTalks 21.04.2020.](https://www.meetup.com/Golang-ZG/events/269914818/)  [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://youtu.be/pBrPGmJUUlk)
+### [GoTalks 21.4.2020.](https://www.meetup.com/Golang-ZG/events/269914818/)  [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://youtu.be/pBrPGmJUUlk)
 - **Kubernetes Operators: Safety First Through Model Checkers**
 by [Neven Miculinić](https://www.linkedin.com/in/nmiculinic/)
 
-### [GoTalks 18.02.2020.](https://www.meetup.com/Golang-ZG/events/268566279/)
+### [GoTalks 18.2.2020.](https://www.meetup.com/Golang-ZG/events/268566279/)
 - **Slanje Push notifikacija iz Goa**
 by [Maja Trepšić Kušt](https://www.linkedin.com/in/maja-trepsic/)
 
-### [GoTalks 30.01.2020.](https://www.meetup.com/Golang-ZG/events/267900978/)
+### [GoTalks 30.1.2020.](https://www.meetup.com/Golang-ZG/events/267900978/)
 - **Behavior-driven development & Cucumber for Go**
 by Zvonimir Bošnjak
 
@@ -222,7 +233,7 @@ by [Matej Baćo](https://twitter.com/matejbaco)
 ### [GoTalks 14.2.2019.](https://www.meetup.com/Golang-ZG/events/258868806/)
 - Drinkup
 
-### [GoTalks 1/19](https://www.meetup.com/Golang-ZG/events/258357473/) January 31, 2019
+### [GoTalks 31.1.2019](https://www.meetup.com/Golang-ZG/events/258357473/) 
 - [Hack Table](https://github.com/golanghr/golangzg/tree/master/hacktable#2019-01)
 
 
