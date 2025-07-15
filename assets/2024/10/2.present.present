@@ -90,7 +90,7 @@ go install github.com/oktalz/present@v1.0.0
 
 .slide.terminal.font-size(3svh)
 
-.cast.run(present -h)
+.cast.run(present --help)
 ```sh
 present --help
 ```
