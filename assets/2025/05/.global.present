@@ -1,0 +1,6 @@
+.title(Go Modules & Packages)
+.global.font-size(5svh)
+.global.hide.page.number
+.//author: Zlatko Bratkovic
+.global.aspect-ratio-min(16x9)
+.global.aspect-ratio-max(16x10)
