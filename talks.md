@@ -2,9 +2,18 @@
 
 ## 2025
 
+### **GoTalks 27.05.2025.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/307898101)
+- **Go modules and packages**
+by [Zlatko Bratković](https://www.linkedin.com/in/bratkoviczlatko/) [<img src="assets/images/pdf.png" alt="png" width="24"/>](assets/2025/05/meetup-2025-05.pdf)
+- local run
+  ```sh
+  go install github.com/oktalz/present@latest
+  present --admin-pwd-disable -g github.com/golanghr/golangzg -d assets/2025/05
+  ```
+
 ### **GoTalks 29.4.2025.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/307302311/)
-- **Building Desktop Apps with Go** 
-by [Branko Zečević](https://www.linkedin.com/in/bzecevic/) [<img src="assets/images/pdf.png" alt="png" width="24"/>](assets/2025/04/POINTER-Open-source-S007-Prezentacija-Desktop-Apps-GolangZG-GoTalks-2025-04-en.pdf) 
+- **Building Desktop Apps with Go**
+by [Branko Zečević](https://www.linkedin.com/in/bzecevic/) [<img src="assets/images/pdf.png" alt="png" width="24"/>](assets/2025/04/POINTER-Open-source-S007-Prezentacija-Desktop-Apps-GolangZG-GoTalks-2025-04-en.pdf)
 
 ### **GoTalks 27.03.2025.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/306718932/) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://www.youtube.com/watch?v=6z9xuje4QXQ)
 - **Golang from the perspective of .Net developer**
@@ -40,10 +49,10 @@ by [Zlatko Bratković](https://www.linkedin.com/in/bratkoviczlatko/) [<img src="
 - **Go Internationalization (i18n)**
 by [Branko Zečević](https://www.linkedin.com/in/bzecevic/) [<img src="assets/images/pdf.png" alt="png" width="24"/>](assets/2024/12/POINTER-Open-source-S006-Prezentacija-I18N-GolangZG-GoTalks-2024-12-en.pdf) ([Examples](assets/2024/12/))
 
-### **GoTalks 01.10.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/303525605/) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://www.youtube.com/watch?v=KV-3WZr0dGM) 
-- **Go 1.23** 
+### **GoTalks 01.10.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/303525605/) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://www.youtube.com/watch?v=KV-3WZr0dGM)
+- **Go 1.23**
 by [Zlatko Bratković](https://www.linkedin.com/in/bratkoviczlatko/) [<img src="assets/images/pdf.png" alt="png" width="24"/>](assets/2024/10/assets/Go-meetup-10-2024.pdf)
-- present - alternative to presentation tools written in Go 
+- present - alternative to presentation tools written in Go
 by [Zlatko Bratković](https://www.linkedin.com/in/bratkoviczlatko/)
 - local run
   ```sh
@@ -61,11 +70,11 @@ by [Marin Barišić](https://www.linkedin.com/in/barisicmarin/) [<img src="asset
 
 
 ### **GoTalks 9.4.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/300149656/) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://youtu.be/beCVwhHiH1E)
-- **Web Sockets in Microservice architecture** 
+- **Web Sockets in Microservice architecture**
 by Asseco
 
 ### **GoTalks 20.2.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/299180885/) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://youtu.be/7fd7-w2oa7k)
-- **Go 1.22** 
+- **Go 1.22**
 by [Zlatko Bratković](https://www.linkedin.com/in/bratkoviczlatko/)
 
 ### **GoTalks 30.01.2024.** [<img src="assets/images/meetup_logo.jpg" alt="meetup.com" width="24"/>](https://www.meetup.com/golang-zg/events/298719089/) [<img src="assets/images/youtube_logo.jpg" alt="youtube.com" width="24"/>](https://youtu.be/kKDWa37bhEw)

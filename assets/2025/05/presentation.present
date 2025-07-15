@@ -1,0 +1,452 @@
+.===============================================================================
+.center
+.css{
+  font-size: 3.2em;text-shadow: 0 0 3px #FFFFFF, 0 0 15pxrgb(255, 255, 255);
+  margin-top: 10svh;
+}
+**GoTalks 27.05.2025**
+
+.css.end
+.center.end
+
+.slide.background(assets/golang-back.png)
+.===============================================================================
+.TITLE{How to reach us}
+
+#space#
+.css{text-align: center; display: flex;  justify-content: center; align-items: center;}
+.table
+.tr
+.td
+.image(assets/meetup.png :13svh)
+.td{text-align: left; padding-left: 5svw;}
+[meetup.com/Golang-ZG](https://www.meetup.com/Golang-ZG/)
+.tr
+.td{height: 13svh}
+.image(assets/youtube.svg :10svh)
+.td{text-align: left; padding-left: 5svw;}
+.{color:blue}(@)[golangzg](https://www.youtube.com/@golangzg)
+.tr
+.td
+.image(assets/github.svg :13svh)
+.td{text-align: left; padding-left: 5svw;}
+[github.com/golanghr/golangzg](https://github.com/golanghr/golangzg/blob/master/talks.md)
+.tr
+.td
+.image(assets/Bluesky_Logo.svg :13svh)
+.td{text-align: left; padding-left: 5svw;}
+.{color:blue}(@)[golangzg.bsky.social](https://bsky.app/profile/golangzg.bsky.social)
+.tr
+.td{height: 13svh}
+.image(assets/slack-new-logo.svg :12svh)
+.td{text-align: left; padding-left: 5svw;}
+[invite.slack.golangbridge.org](https://invite.slack.golangbridge.org/?fbclid=IwAR35p7rEaNkowXDxX8RvmWDvyhoAslx2QskpBBnHlVdKCXvRpCoxePMmHnA)
+.table.end
+.css.end
+
+.===============================================================================
+.TITLE{modules and packages}
+
+Modules
+- Go 1.13+
+  - Semver - Semantic versioning (`MAJOR.MINOR.PATCH`)
+
+- options
+  - 1 repository => 1+ module
+  - 1 module => 1+ packages
+  - 1 package => 1+ files (same folder)
+
+recommendation:
+- 1 repository => 1 module
+
+.===============================================================================
+.TITLE{how to start the project}
+
+- Application
+  ```sh
+  go mod init my-app
+  ```
+  ```sh
+  go mod init github.com/org/my-app
+  ```
+#space#
+#space#
+- Library
+  ```sh
+  go mod init github.com/org/my-lib
+  ```
+.===============================================================================
+.TITLE{single folder module}
+```mermaid
+graph TD
+    A["📁"] --> B["📄 go.mod"];
+    A --> C["📄 go.sum"];
+    A --> D["📄 main.go"];
+
+    classDef folder fill:#00ADD8,stroke:#333,stroke-width:2px,color:#333;
+    classDef file fill:#5DC9E2,stroke:#333,stroke-width:2px,color:#333;
+
+    class A,E,G folder;
+    class B,C,D,F,H file;
+```
+
+.slide.keep.page.print.on.transition
+.replace{#active#}(active)
+.replace{#empty#}()
+.replace{#tab1#}(active)
+.replace{#tab2#}()
+
+.tabs
+.tab{#tab1#}(my-app)
+```go
+package main
+```
+.tab{#tab2#}(my-lib)
+```go
+package github.com/org/my-lib
+```
+.tabs.end
+.transition{#tab1#}(#empty#).transition{#tab2#}(#active#)
+
+.===============================================================================
+.TITLE{single folder module}
+```mermaid
+graph TD
+    A["📁"] --> B["📄 go.mod"];
+    A --> C["📄 go.sum"];
+    A --> D["📄 lib.go"];
+    A --> F["📄 books.go"];
+    A --> H["📄 user.go"];
+
+    classDef folder fill:#00ADD8,stroke:#333,stroke-width:2px,color:#333;
+    classDef file fill:#5DC9E2,stroke:#333,stroke-width:2px,color:#333;
+
+    class A,E,G folder;
+    class B,C,D,F,H file;
+```
+.===============================================================================
+.TITLE{multi package module}
+
+.slide.font-size(4svh)
+```mermaid
+graph TD
+    A["📁"] --> B["📄 go.mod"];
+    A --> C["📄 go.sum"];
+    A --> D["📄 lib.go"];
+
+    A --> E["📁 books"];
+    E --> F["📄 book.go"];
+
+    A --> G["📁 users"];
+    G --> H["📄 user.go"];
+
+    classDef folder fill:#00ADD8,stroke:#333,stroke-width:2px,color:#333;
+    classDef file fill:#5DC9E2,stroke:#333,stroke-width:2px,color:#333;
+
+    class A,E,G folder;
+    class B,C,D,F,H file;
+```
+
+.css{position: absolute; top: 37svh; width: 55svw;}
+
+.slide.keep.page.print.on.transition
+
+.replace{#active#}(active)
+.replace{#empty#}()
+.replace{#tab1#}(active)
+.replace{#tab2#}()
+.replace{#tab3#}()
+
+.tabs
+.tab{#tab1#}(lib.go)
+```go
+package main
+
+import (
+  "fmt"
+
+  "github.com/org/my-app/books"
+  "github.com/org/my-app/users"
+)
+```
+.tab{#tab2#}(book.go)
+```go
+package books
+
+type Book struct {
+  ID     int
+  Title  string
+  Author string
+}
+```
+.tab{#tab3#}(user.go)
+```go
+package users
+
+type User struct {
+  ID     int
+  Name  string
+  Email string
+}
+```
+.tabs.end
+
+.css.end
+.transition{#tab1#}(#empty#).transition{#tab2#}(#active#)
+.transition{#active#}(#empty#).transition{#tab3#}(#active#)
+
+.===============================================================================
+.TITLE{packages - `lib.go`}
+
+.slide.font-size(3.2svh)
+
+.cast.stream.edit.path(examples/simple-lib).source(lib.go).show(3:1000).lang(go).run(go run .)
+.===============================================================================
+.TITLE{packages - `renting`}
+
+```mermaid
+graph TD
+    A["📁"] --> B["📄 go.mod"];
+    A --> C["📄 go.sum"];
+    A --> D["📄 lib.go"];
+
+    A --> E["📁 books"];
+    E --> F["📄 book.go"];
+    E --> F2["📄 rent.go"];
+
+    A --> G["📁 users"];
+    G --> H["📄 user.go"];
+
+    classDef folder fill:#00ADD8,stroke:#333,stroke-width:2px,color:#333;
+    classDef file fill:#5DC9E2,stroke:#333,stroke-width:2px,color:#333;
+
+    class A,E,G folder;
+    class B,C,D,F,F2,H file;
+```
+
+.===============================================================================
+.TITLE{packages - `renting`}
+
+.block.path(examples/renting/books).source(renting.go).show(1:1).lang(go)
+.block.path(examples/renting/books).source(renting.go).show(23:1000).lang(go)
+.===============================================================================
+.TITLE{packages - `users` - import cycle}
+
+.slide.terminal.font-size(3.5svh)
+
+.cast.path(examples/renting-2).run(go build)
+.block.path(examples/renting-2/users).source(user.go).show(23:1000).lang(go)
+.===============================================================================
+.TITLE{packages - `users` - import cycle}
+
+- solutions
+  - move code to a new package (`renting`)
+  - move types to a new package (`types`)
+  - use interfaces to break the cycle
+  - ...
+.===============================================================================
+.TITLE{naming packages}
+- package name
+  - short and descriptive
+  - lower case
+  - no dash or mixed case
+
+.css{
+  width: 60svw;
+  height: 55svh;
+  overflow: hidden;
+  font-size: 4svh!important;
+}
+```mermaid
+graph TD
+    A[📁] --> D["📄 lib.go"];
+
+    A --> B["📁 books-antique"];
+    B --> C["📄 antique.go"];
+
+    A --> E["📁 books-scifi"];
+    E --> F["📄 scifi.go"];
+
+    classDef folder fill:#00ADD8,stroke:#333,stroke-width:2px,color:#333;
+    classDef file fill:#5DC9E2,stroke:#333,stroke-width:2px,color:#333;
+
+    class A,E,G folder;
+    class B,C,D,F,F2,H file;
+```
+.css.end
+.===============================================================================
+.TITLE{naming packages}
+- package name
+  - subfolders
+
+.css{
+  width: 50svw;
+  height: 80svh;
+  overflow: hidden;
+  font-size: 4svh!important;
+  position :absolute;
+  top: 0svh;
+  right: 20svw;
+}
+```mermaid
+graph TD
+    A[📁] --> D["📄 lib.go"];
+
+    A --> G["📁 books"];
+
+    G --> B["📁 antique"];
+    B --> C["📄 antique.go"];
+
+    G --> E["📁 scifi"];
+    E --> F["📄 scifi.go"];
+
+    classDef folder fill:#00ADD8,stroke:#333,stroke-width:2px,color:#333;
+    classDef file fill:#5DC9E2,stroke:#333,stroke-width:2px,color:#333;
+
+    class A,E,G folder;
+    class B,C,D,F,F2,H file;
+```
+.css.end
+.===============================================================================
+.TITLE{naming packages}
+- package name
+  - `-`
+
+.css{
+  width: 75svw;
+  height: 80svh;
+  overflow: hidden;
+  font-size: 4svh!important;
+  position :absolute;
+  top: 0svh;
+  right: 10svw;
+}
+```mermaid
+graph TD
+    A[📁 client-native] --> D["📄 client-native.go"];
+
+    A --> B["📁 runtime"];
+    B --> C["📄 runtime.go"];
+
+    A --> E["📁 config"];
+    E --> F["📄 config.go"];
+
+    A --> G["📁 ..."];
+    G --> F2["📄 ..."];
+
+
+    classDef folder fill:#00ADD8,stroke:#333,stroke-width:2px,color:#333;
+    classDef file fill:#5DC9E2,stroke:#333,stroke-width:2px,color:#333;
+
+    class A,E,G folder;
+    class B,C,D,F,F2,H file;
+```
+.css.end
+
+.slide.keep.page.print.on.transition
+.replace{#active#}(active)
+.replace{#empty#}()
+.replace{#tab1#}(active)
+.replace{#tab2#}()
+
+.css{
+  position: absolute;
+  top: 45svh;
+  width: 100svw;
+}
+
+.notes
+// Copyright 2019 HAProxy Technologies
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+//
+.notes.end
+
+.tabs
+.tab{#tab1#}(go.mod)
+```go
+module github.com/haproxytech/client-native/v6
+
+go 1.24
+
+require (
+```
+.tab{#tab2#}(client-native.go)
+```go
+package clientnative
+
+import (
+    "errors"
+    ...
+```
+.tabs.end
+.css.end
+
+.transition{#tab1#}(#empty#).transition{#tab2#}(#active#)
+.===============================================================================
+.TITLE{module documentation - `pkg.go.dev`}
+
+.center
+.image(assets/go-doc.png :80svh)
+.center.end
+.===============================================================================
+.TITLE{module documentation - `pkg.go.dev`}
+
+## `doc_test.go`
+```go
+package orderedmap_test
+
+import (
+  "fmt"
+
+  orderedmap "github.com/oktalz/ordered-map"
+)
+
+func Example() {
+  m := orderedmap.New[string, customType]()
+  ...
+```
+.===============================================================================
+.TITLE{module documentation - `pkg.go.dev`}
+
+## `doc_test.go`
+```go
+
+// This is a package-level example
+func ExampleCursor() {
+  m := orderedmap.New[string, customType]()
+
+  m.Set("1", customType{1, "1"})
+
+  ...
+}
+```
+.===============================================================================
+.TITLE{structure}
+
+- big or small modules / packages ?
+  - Go's dead code elimination (DCE) is good, especially for functions and variables that are `truly unreachable`.
+  - Link-time elimination of unused functions
+  - Multiple passes ?
+    - DCE is often performed at various stages of the compilation and linking process, increasing its effectiveness
+
+.===============================================================================
+.TITLE{structure}
+
+- `Limitations`
+  - Reflection can hinder DCE !!
+    - relies on a static view of the program’s call graph
+    - linker must assume that any exported methods might be invoked at runtime
+  - Exported variables
+  - `Unreachable` vs. `Unused`
+    - Go's DCE primarily focuses on `unreachable` code
